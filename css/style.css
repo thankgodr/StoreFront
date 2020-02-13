@@ -45,14 +45,14 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 900;
   color: #D35266;
   position: relative;
-  left: -98px;
+  left: -38px;
 }
 
 .carousel-control-next .icon {
   font-weight: 900;
   color: #D35266;
   position: relative;
-  right: -98px;
+  right: -38px;
 }
 
 .imgContainer img {
@@ -88,6 +88,11 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
   font-family: "HelveticalNeueBold", serif;
   margin-bottom: 4px;
+}
+
+.profilePic {
+  width: 35px;
+  border-radius: 50%;
 }
 
 .form-control {
@@ -202,6 +207,25 @@ h1, h2, h3, h4, h5, h6 {
 
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+@media (min-width: 768px) {
+  .carousel-control-prev .icon {
+    left: -58px;
+  }
+
+  .carousel-control-next .icon {
+    right: -58px;
+  }
+}
+@media (min-width: 992px) {
+  .carousel-control-prev .icon {
+    left: -98px;
+  }
+
+  .carousel-control-next .icon {
+    right: -98px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
