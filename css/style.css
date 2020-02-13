@@ -41,6 +41,20 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "GotHamBold", serif;
 }
 
+.carousel-control-prev .icon {
+  font-weight: 900;
+  color: #D35266;
+  position: relative;
+  left: -98px;
+}
+
+.carousel-control-next .icon {
+  font-weight: 900;
+  color: #D35266;
+  position: relative;
+  right: -98px;
+}
+
 .imgContainer img {
   max-height: 200px;
   max-width: 150px;
@@ -49,6 +63,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .addvertSline div {
   max-height: 300px;
+}
+
+.category .row {
+  margin: 0;
 }
 
 .text-start {
@@ -70,6 +88,45 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
   font-family: "HelveticalNeueBold", serif;
   margin-bottom: 4px;
+}
+
+.form-control {
+  border-radius: 0;
+  height: calc(1.5em + .75rem + 22px);
+}
+
+.redHeader {
+  background-color: #D35266;
+}
+
+.redHeader .btn {
+  line-height: 2.8;
+}
+
+.commentCount {
+  position: relative;
+  left: 41px;
+  z-index: 22;
+  top: -15px;
+  color: white;
+  font-family: "GotHamBold", serif;
+  font-weight: 700;
+}
+
+.comentIcon {
+  color: #D35266;
+}
+
+.logoNameBig {
+  color: white;
+  font-size: 45px;
+  text-transform: uppercase;
+  font-family: "HelveticalNeueBold", serif;
+  line-height: 0.9;
+}
+
+.logoNameBigSubscribe {
+  font-family: "GotHamRoundedLight", serif;
 }
 
 .topMenuRow {
@@ -99,6 +156,11 @@ h1, h2, h3, h4, h5, h6 {
 
 .sectionHeader {
   color: #888888;
+}
+
+.category .sectionHeader {
+  margin-left: 10px;
+  border-bottom: 1px solid #888888;
 }
 
 .productName {

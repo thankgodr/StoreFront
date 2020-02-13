@@ -58,7 +58,19 @@ ul {
 h1, h2, h3, h4, h5, h6 {
     font-family: $gotHamBold;
 }
+.carousel-control-prev .icon{
+    font-weight: 900;
+    color: $colorRed;
+    position: relative;
+    left: -98px;
+}
 
+.carousel-control-next .icon{
+    font-weight: 900;
+    color: $colorRed;
+    position: relative;
+    right: -98px;
+}
 .imgContainer img{
      max-height: 200px;
      max-width: 150px;
@@ -69,7 +81,9 @@ h1, h2, h3, h4, h5, h6 {
   max-height: 300px;
 }
 
-
+.category .row{
+  margin: 0;
+}
 
 .text-start {
   text-align: start;
@@ -91,6 +105,47 @@ h1, h2, h3, h4, h5, h6 {
     font-family: $hevelticaBold;
     margin-bottom: 4px;
   }
+
+  .form-control{
+   border-radius: 0;
+   height:  calc(1.5em + .75rem + 22px);
+  }
+
+.redHeader {
+  background-color: $colorRed;
+}
+
+.redHeader .btn {
+  line-height: 2.8;
+}
+
+.commentCount{
+    position: relative;
+    left: 41px;
+    z-index: 22;
+    top: -15px;
+    color: white;
+    font-family: $gotHamBold;
+    font-weight: 700;
+}
+
+.comentIcon{
+  color: $colorRed;
+}
+
+  .logoNameBig{
+    color: white;
+    font-size: 45px;
+    text-transform: uppercase;
+    font-family: $hevelticaBold;
+    line-height: 0.9;
+  }
+
+  .logoNameBigSubscribe{
+    font-family: $gotHamLight;
+  }
+
+
 
 .topMenuRow {
   background-color: $colorDark;
@@ -119,6 +174,11 @@ h1, h2, h3, h4, h5, h6 {
 
 .sectionHeader {
   color: $colorGrey;
+}
+
+.category .sectionHeader{
+  margin-left: 10px;
+  border-bottom: 1px solid $colorGrey;
 }
 
 .productName {
