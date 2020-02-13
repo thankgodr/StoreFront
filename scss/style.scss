@@ -1,6 +1,63 @@
+@font-face {
+    font-family: GotHamBold;
+    src: url("../font/Gotham\ Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: GotHamRoundedLight;
+    src: url("../font/Gotham\ Rounded\ Light.otf") format("opentype");
+}
+
+@font-face {
+    font-family: HelveticalNeueLight;
+    src: url("../font/Helvetica-Neue-Light_22503.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: HelveticalNeueMedium;
+    src: url("../font/HelveticaNeue-Medium.otf") format("opentype");
+}
+
+@font-face {
+    font-family: HelveticalNeueBold;
+    src: url("../font/HelveticaNeueBold.ttf") format("truetype");
+}
+
+$gotHamBold : "GotHamBold", serif;
+$gotHamLight : "GotHamRoundedLight", serif;
+$hevelticaLight : "HelveticalNeueLight", serif;
+$hevelticaMedium : "HelveticalNeueMedium", serif;
+$hevelticaBold : "HelveticalNeueBold", serif;
+
+
+
+
 $colorRed : #D35266;
 $colorGrey : #888888;
 $colorDark : #383838;
+
+p {
+    font-family: $gotHamLight;
+    margin-bottom: 0;
+}
+
+a {
+  text-decoration: none;
+  color: $colorGrey;
+}
+
+a:hover{
+  color: $colorRed;
+  text-decoration: none;  
+}
+
+ul {
+  list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $gotHamBold;
+}
 
 .imgContainer img{
      max-height: 200px;
@@ -8,8 +65,93 @@ $colorDark : #383838;
     object-fit:  cover;
 }
 
-.product{
+.addvertSline div {
+  max-height: 300px;
+}
+
+
+
+.text-start {
+  text-align: start;
+}
+
+.logo{
+  color: $colorRed;
+  font-size: 25px;
+}
+
+.selected {
+  color: $colorRed;
+}
+
+.logoName{
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: $hevelticaBold;
+    margin-bottom: 4px;
+  }
+
+.topMenuRow {
+  background-color: $colorDark;
+  color: $colorGrey;
+}
+
+.text-end {
+ text-align: end;
+}
+
+.icon {
+  font-size: 30px;    
+}
+
+.menuList {
+  display: flex;
+  flex-grow: 1;
+  white-space: nowrap;
+}
+
+.menuList li {
+  flex: 1;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+.sectionHeader {
+  color: $colorGrey;
+}
+
+.productName {
+  font-family: $gotHamBold;
+  color: $colorDark;
+  margin-bottom: 0;
+}
+
+.productPrice {
+    color: $colorRed;
+    font-family: $gotHamBold;
+}
+
+.productDetailsContainer {
+    text-align: start;
+}
+
+.productLocation {
+    color: $colorDark  
+}
+
+.productLocation > span {
+    color: $colorGrey;
+}
+
+.product {
     background-clip: padding-box;
+}
+
+.productStatus {
+  
+  color: $colorRed;
+  font-family: $hevelticaMedium;
 }
 
 .card {

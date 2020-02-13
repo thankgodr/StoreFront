@@ -1,11 +1,136 @@
+@font-face {
+  font-family: GotHamBold;
+  src: url("../font/Gotham Bold.otf") format("opentype");
+}
+@font-face {
+  font-family: GotHamRoundedLight;
+  src: url("../font/Gotham Rounded Light.otf") format("opentype");
+}
+@font-face {
+  font-family: HelveticalNeueLight;
+  src: url("../font/Helvetica-Neue-Light_22503.ttf") format("truetype");
+}
+@font-face {
+  font-family: HelveticalNeueMedium;
+  src: url("../font/HelveticaNeue-Medium.otf") format("opentype");
+}
+@font-face {
+  font-family: HelveticalNeueBold;
+  src: url("../font/HelveticaNeueBold.ttf") format("truetype");
+}
+p {
+  font-family: "GotHamRoundedLight", serif;
+  margin-bottom: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #888888;
+}
+
+a:hover {
+  color: #D35266;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "GotHamBold", serif;
+}
+
 .imgContainer img {
   max-height: 200px;
   max-width: 150px;
   object-fit: cover;
 }
 
+.addvertSline div {
+  max-height: 300px;
+}
+
+.text-start {
+  text-align: start;
+}
+
+.logo {
+  color: #D35266;
+  font-size: 25px;
+}
+
+.selected {
+  color: #D35266;
+}
+
+.logoName {
+  color: white;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-family: "HelveticalNeueBold", serif;
+  margin-bottom: 4px;
+}
+
+.topMenuRow {
+  background-color: #383838;
+  color: #888888;
+}
+
+.text-end {
+  text-align: end;
+}
+
+.icon {
+  font-size: 30px;
+}
+
+.menuList {
+  display: flex;
+  flex-grow: 1;
+  white-space: nowrap;
+}
+
+.menuList li {
+  flex: 1;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+.sectionHeader {
+  color: #888888;
+}
+
+.productName {
+  font-family: "GotHamBold", serif;
+  color: #383838;
+  margin-bottom: 0;
+}
+
+.productPrice {
+  color: #D35266;
+  font-family: "GotHamBold", serif;
+}
+
+.productDetailsContainer {
+  text-align: start;
+}
+
+.productLocation {
+  color: #383838;
+}
+
+.productLocation > span {
+  color: #888888;
+}
+
 .product {
   background-clip: padding-box;
+}
+
+.productStatus {
+  color: #D35266;
+  font-family: "HelveticalNeueMedium", serif;
 }
 
 .card {
