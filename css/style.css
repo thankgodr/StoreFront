@@ -83,6 +83,10 @@ footer h5 {
   max-height: 450px;
 }
 
+.text-end .btn {
+  white-space: nowrap;
+}
+
 .product .card {
   height: 100%;
 }
@@ -93,6 +97,14 @@ footer h5 {
 
 .serachFilters .card-body {
   background-color: rgba(0, 0, 0, 0.03);
+}
+
+.serachFilters .card-group-item {
+  padding-left: 10px;
+}
+
+.form-check-label {
+  font-family: "HelveticalNeueLight", serif;
 }
 
 .category .row {
