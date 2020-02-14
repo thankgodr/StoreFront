@@ -87,6 +87,14 @@ footer h5 {
   white-space: nowrap;
 }
 
+.card {
+  transition: all 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
 .product .card {
   height: 100%;
 }
