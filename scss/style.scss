@@ -1,26 +1,26 @@
 @font-face {
-    font-family: GotHamBold;
-    src: url("../font/Gotham\ Bold.otf") format("opentype");
+  font-family: GotHamBold;
+  src: url("../font/Gotham\ Bold.otf") format("opentype");
 }
 
 @font-face {
-    font-family: GotHamRoundedLight;
-    src: url("../font/Gotham\ Rounded\ Light.otf") format("opentype");
+  font-family: GotHamRoundedLight;
+  src: url("../font/Gotham\ Rounded\ Light.otf") format("opentype");
 }
 
 @font-face {
-    font-family: HelveticalNeueLight;
-    src: url("../font/Helvetica-Neue-Light_22503.ttf") format("truetype");
+  font-family: HelveticalNeueLight;
+  src: url("../font/Helvetica-Neue-Light_22503.ttf") format("truetype");
 }
 
 @font-face {
-    font-family: HelveticalNeueMedium;
-    src: url("../font/HelveticaNeue-Medium.otf") format("opentype");
+  font-family: HelveticalNeueMedium;
+  src: url("../font/HelveticaNeue-Medium.otf") format("opentype");
 }
 
 @font-face {
-    font-family: HelveticalNeueBold;
-    src: url("../font/HelveticaNeueBold.ttf") format("truetype");
+  font-family: HelveticalNeueBold;
+  src: url("../font/HelveticaNeueBold.ttf") format("truetype");
 }
 
 $gotHamBold : "GotHamBold", serif;
@@ -29,17 +29,13 @@ $hevelticaLight : "HelveticalNeueLight", serif;
 $hevelticaMedium : "HelveticalNeueMedium", serif;
 $hevelticaBold : "HelveticalNeueBold", serif;
 
-
-
-
-
-$colorRed : #D35266;
-$colorGrey : #888888;
+$colorRed : #d35266;
+$colorGrey : #888;
 $colorDark : #383838;
 
 p {
-    font-family: $gotHamLight;
-    margin-bottom: 0;
+  font-family: $gotHamLight;
+  margin-bottom: 0;
 }
 
 a {
@@ -47,14 +43,15 @@ a {
   color: $colorGrey;
 }
 
-a:hover{
+a:hover {
   color: $colorRed;
-  text-decoration: none;  
+  text-decoration: none;
 }
 
 ul {
   list-style: none;
 }
+
 footer {
   font-family: $gotHamLight;
 }
@@ -63,70 +60,89 @@ footer ul {
   padding: 0;
 }
 
-footer .redtext{
-    color: $colorRed;
-    font-family: $hevelticaBold;
+footer .redtext {
+  color: $colorRed;
+  font-family: $hevelticaBold;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: $gotHamBold;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $gotHamBold;
 }
 
-footer h5{
+footer h5 {
   color: $colorRed;
   border-bottom: 1px solid $colorRed;
 }
-.carousel-control-prev .icon{
-    font-weight: 900;
-    color: $colorRed;
-    position: relative;
-    left: -38px;
+
+.icon {
+  font-size: 30px;
 }
 
-.carousel-control-next .icon{
-    font-weight: 900;
-    color: $colorRed;
-    position: relative;
-    right: -38px;
+.carousel-control-prev .icon {
+  font-weight: 900;
+  color: $colorRed;
+  position: relative;
+  left: -38px;
 }
-.imgContainer img{
-     max-height: 200px;
-     max-width: 150px;
-    object-fit:  cover;
+
+.carousel-control-next .icon {
+  font-weight: 900;
+  color: $colorRed;
+  position: relative;
+  right: -38px;
+}
+
+.imgContainer img {
+  max-height: 200px;
+  max-width: 150px;
+  object-fit: cover;
 }
 
 .addvertSline div {
   max-height: 450px;
 }
 
-.text-end .btn{
+.text-end .btn {
   white-space: nowrap;
 }
 
-.card { transition: all .2s ease-in-out; }
-.card:hover { transform: scale(1.1); }
-
-.product .card{
-   height: 100%; 
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  transition: all 0.2s ease-in-out;
 }
 
-.serachFilters{
-  background-color: rgba(0,0,0,.03);
+.card:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
-.serachFilters .card-body{
-    background-color: rgba(0,0,0,.03);
-}
-.serachFilters .card-group-item{
-    padding-left: 10px;
+.product .card {
+  height: 100%;
 }
 
-.form-check-label{
-    font-family: $hevelticaLight;
+.serachFilters {
+  background-color: rgba(0, 0, 0, 0.03);
 }
-  
 
-.category .row{
+.serachFilters .card-body {
+  background-color: rgba(0, 0, 0, 0.03);
+}
+
+.serachFilters .card-group-item {
+  padding-left: 10px;
+}
+
+.form-check-label {
+  font-family: $hevelticaLight;
+}
+
+.category .row {
   margin: 0;
 }
 
@@ -134,20 +150,20 @@ footer h5{
   text-align: start;
 }
 
-.logo{
+.logo {
   color: $colorRed;
   font-size: 25px;
 }
 
 .footerLogoName {
-    color: $colorGrey;
-    font-size: 25px;
-    text-transform: uppercase;
-    font-family: $hevelticaBold;
-    margin-bottom: 4px;
+  color: $colorGrey;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-family: $hevelticaBold;
+  margin-bottom: 4px;
 }
 
-.footerLogo{
+.footerLogo {
   color: $colorGrey;
   font-size: 50px;
 }
@@ -156,23 +172,23 @@ footer h5{
   color: $colorRed;
 }
 
-.logoName{
-    color: white;
-    font-size: 15px;
-    text-transform: uppercase;
-    font-family: $hevelticaBold;
-    margin-bottom: 4px;
-  }
+.logoName {
+  color: white;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-family: $hevelticaBold;
+  margin-bottom: 4px;
+}
 
-  .profilePic {
-    width: 35px;
-    border-radius: 50%;
-  }
+.profilePic {
+  width: 35px;
+  border-radius: 50%;
+}
 
-  .form-control{
-   border-radius: 0;
-   height:  calc(1.5em + .75rem + 22px);
-  }
+.form-control {
+  border-radius: 0;
+  height: calc(1.5em + 0.75rem + 22px);
+}
 
 .redHeader {
   background-color: $colorRed;
@@ -183,37 +199,35 @@ footer h5{
   line-height: 2.8;
 }
 
-.imgcontain{
-    object-fit: contain;
+.imgcontain {
+  object-fit: contain;
 }
 
-.commentCount{
-    position: relative;
-    left: 41px;
-    z-index: 22;
-    top: -15px;
-    color: white;
-    font-family: $gotHamBold;
-    font-weight: 700;
+.commentCount {
+  position: relative;
+  left: 41px;
+  z-index: 22;
+  top: -15px;
+  color: white;
+  font-family: $gotHamBold;
+  font-weight: 700;
 }
 
-.comentIcon{
+.comentIcon {
   color: $colorRed;
 }
 
-  .logoNameBig{
-    color: white;
-    font-size: 45px;
-    text-transform: uppercase;
-    font-family: $hevelticaBold;
-    line-height: 0.9;
-  }
+.logoNameBig {
+  color: white;
+  font-size: 45px;
+  text-transform: uppercase;
+  font-family: $hevelticaBold;
+  line-height: 0.9;
+}
 
-  .logoNameBigSubscribe{
-    font-family: $gotHamLight;
-  }
-
-
+.logoNameBigSubscribe {
+  font-family: $gotHamLight;
+}
 
 .topMenuRow {
   background-color: $colorDark;
@@ -221,11 +235,7 @@ footer h5{
 }
 
 .text-end {
- text-align: end;
-}
-
-.icon {
-  font-size: 30px;    
+  text-align: end;
 }
 
 .menuList {
@@ -244,7 +254,7 @@ footer h5{
   color: $colorGrey;
 }
 
-.category .sectionHeader{
+.category .sectionHeader {
   margin-left: 10px;
   border-bottom: 1px solid $colorGrey;
 }
@@ -256,83 +266,59 @@ footer h5{
 }
 
 .productPrice {
-    color: $colorRed;
-    font-family: $gotHamBold;
+  color: $colorRed;
+  font-family: $gotHamBold;
 }
 
 .productDetailsContainer {
-    text-align: start;
+  text-align: start;
 }
 
 .productLocation {
-    color: $colorDark  
+  color: $colorDark;
 }
 
 .productLocation > span {
-    color: $colorGrey;
+  color: $colorGrey;
 }
 
 .product {
-    background-clip: padding-box;
+  background-clip: padding-box;
 }
 
 .productStatus {
-  
   color: $colorRed;
   font-family: $hevelticaMedium;
 }
 
-.card {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
+@media (min-width: 576px) {
+  footer ul > li {
+    margin-right: 10px;
   }
-  
-  .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  }
+}
 
-  @media (min-width: 576px) { 
-
-    footer ul > li{
-        margin-right: 10px;
-    }
-
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  .carousel-control-prev .icon {
+    left: -58px;
   }
 
-  // Medium devices (tablets, 768px and up)
-  @media (min-width: 768px) { 
-
-   
-    .carousel-control-prev .icon{
-        left: -58px;
-    }
-    
-    .carousel-control-next .icon{
-       
-        right: -58px;
-    }
-
-   }
-  
-  // Large devices (desktops, 992px and up)
-  @media (min-width: 992px) { 
-    .carousel-control-prev .icon{
-        left: -98px;
-    }
-    
-    .carousel-control-next .icon{
-       
-        right: -98px;
-    }
-
-
-    footer ul > li{
-        margin-right: 0;
-    }
+  .carousel-control-next .icon {
+    right: -58px;
   }
-  
-  // Extra large devices (large desktops, 1200px and up)
-  @media (min-width: 1200px) { 
+}
 
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .carousel-control-prev .icon {
+    left: -98px;
   }
-  
+
+  .carousel-control-next .icon {
+    right: -98px;
+  }
+
+  footer ul > li {
+    margin-right: 0;
+  }
+}

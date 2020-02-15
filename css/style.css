@@ -25,11 +25,11 @@ p {
 
 a {
   text-decoration: none;
-  color: #888888;
+  color: #888;
 }
 
 a:hover {
-  color: #D35266;
+  color: #d35266;
   text-decoration: none;
 }
 
@@ -46,29 +46,38 @@ footer ul {
 }
 
 footer .redtext {
-  color: #D35266;
+  color: #d35266;
   font-family: "HelveticalNeueBold", serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "GotHamBold", serif;
 }
 
 footer h5 {
-  color: #D35266;
-  border-bottom: 1px solid #D35266;
+  color: #d35266;
+  border-bottom: 1px solid #d35266;
+}
+
+.icon {
+  font-size: 30px;
 }
 
 .carousel-control-prev .icon {
   font-weight: 900;
-  color: #D35266;
+  color: #d35266;
   position: relative;
   left: -38px;
 }
 
 .carousel-control-next .icon {
   font-weight: 900;
-  color: #D35266;
+  color: #d35266;
   position: relative;
   right: -38px;
 }
@@ -88,11 +97,14 @@ footer h5 {
 }
 
 .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
   transition: all 0.2s ease-in-out;
 }
 
 .card:hover {
   transform: scale(1.1);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
 .product .card {
@@ -124,12 +136,12 @@ footer h5 {
 }
 
 .logo {
-  color: #D35266;
+  color: #d35266;
   font-size: 25px;
 }
 
 .footerLogoName {
-  color: #888888;
+  color: #888;
   font-size: 25px;
   text-transform: uppercase;
   font-family: "HelveticalNeueBold", serif;
@@ -137,12 +149,12 @@ footer h5 {
 }
 
 .footerLogo {
-  color: #888888;
+  color: #888;
   font-size: 50px;
 }
 
 .selected {
-  color: #D35266;
+  color: #d35266;
 }
 
 .logoName {
@@ -160,11 +172,11 @@ footer h5 {
 
 .form-control {
   border-radius: 0;
-  height: calc(1.5em + .75rem + 22px);
+  height: calc(1.5em + 0.75rem + 22px);
 }
 
 .redHeader {
-  background-color: #D35266;
+  background-color: #d35266;
   margin-top: 20px;
 }
 
@@ -187,7 +199,7 @@ footer h5 {
 }
 
 .comentIcon {
-  color: #D35266;
+  color: #d35266;
 }
 
 .logoNameBig {
@@ -204,15 +216,11 @@ footer h5 {
 
 .topMenuRow {
   background-color: #383838;
-  color: #888888;
+  color: #888;
 }
 
 .text-end {
   text-align: end;
-}
-
-.icon {
-  font-size: 30px;
 }
 
 .menuList {
@@ -228,12 +236,12 @@ footer h5 {
 }
 
 .sectionHeader {
-  color: #888888;
+  color: #888;
 }
 
 .category .sectionHeader {
   margin-left: 10px;
-  border-bottom: 1px solid #888888;
+  border-bottom: 1px solid #888;
 }
 
 .productName {
@@ -243,7 +251,7 @@ footer h5 {
 }
 
 .productPrice {
-  color: #D35266;
+  color: #d35266;
   font-family: "GotHamBold", serif;
 }
 
@@ -256,7 +264,7 @@ footer h5 {
 }
 
 .productLocation > span {
-  color: #888888;
+  color: #888;
 }
 
 .product {
@@ -264,17 +272,8 @@ footer h5 {
 }
 
 .productStatus {
-  color: #D35266;
+  color: #d35266;
   font-family: "HelveticalNeueMedium", serif;
-}
-
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  transition: 0.3s;
-}
-
-.card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
 @media (min-width: 576px) {
