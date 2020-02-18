@@ -6,10 +6,20 @@ HTML Design for a Store front using HTML and CSS, i accomplished the use of HTML
 - HTML,
 - CSS,
 
-## SreenShot
+## Large screen Screenshots
 ![Image](images/image1.png)
 ![Image](images/image2.png)
 ![Image](images/image3.png)
+
+## Medium screen Screenshots
+![Image](images/image4.png)
+![Image](images/image5.png)
+![Image](images/image6.png)
+
+## Small screen Screenshots
+![Image](images/image7.png)
+![Image](images/image8.png)
+![Image](images/image9.png)
 
 
 ## Authors
