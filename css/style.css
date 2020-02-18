@@ -103,6 +103,10 @@ footer h5 {
   white-space: nowrap;
 }
 
+.mainColorRed {
+  color: #d35266;
+}
+
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
@@ -247,7 +251,7 @@ footer h5 {
   font-size: 18px;
 }
 
-.category .sectionHeader {
+.category .headerContainer {
   margin-left: 10px;
   border-bottom: 1px solid #888;
 }
@@ -282,6 +286,14 @@ footer h5 {
 .productStatus {
   color: #d35266;
   font-family: "HelveticalNeueMedium", sans-serif;
+}
+
+.headerContainer {
+  display: inline-flex;
+}
+
+.headerContainer .sectionHeader {
+  flex: 1;
 }
 
 @media (min-width: 576px) {
