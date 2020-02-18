@@ -288,6 +288,10 @@ footer h5 {
   footer ul > li {
     margin-right: 10px;
   }
+
+  .featuredProducts > .column {
+    flex: 1 0 50%;
+  }
 }
 @media (min-width: 768px) {
   .carousel-control-prev .icon {
@@ -296,6 +300,11 @@ footer h5 {
 
   .carousel-control-next .icon {
     right: -58px;
+  }
+
+  .featuredProducts > .column {
+    flex: 1 0 33%;
+    max-width: 33%;
   }
 }
 @media (min-width: 992px) {
@@ -309,6 +318,11 @@ footer h5 {
 
   footer ul > li {
     margin-right: 0;
+  }
+
+  .featuredProducts > .column {
+    flex: 1 0 21%;
+    margin: 5px;
   }
 }
 
