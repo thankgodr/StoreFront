@@ -19,7 +19,7 @@
   src: url("../font/HelveticaNeueBold.ttf") format("truetype");
 }
 p {
-  font-family: "GotHamRoundedLight", serif;
+  font-family: "GotHamRoundedLight", sans-serif;
   margin-bottom: 0;
 }
 
@@ -38,7 +38,7 @@ ul {
 }
 
 footer {
-  font-family: "GotHamRoundedLight", serif;
+  font-family: "GotHamRoundedLight", sans-serif;
 }
 
 footer ul {
@@ -54,7 +54,7 @@ footer ul {
 
 footer .redtext {
   color: #d35266;
-  font-family: "HelveticalNeueBold", serif;
+  font-family: "HelveticalNeueBold", sans-serif;
 }
 
 h1,
@@ -63,7 +63,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "GotHamBold", serif;
+  font-family: "GotHamBold", sans-serif;
 }
 
 footer h5 {
@@ -131,7 +131,7 @@ footer h5 {
 }
 
 .form-check-label {
-  font-family: "HelveticalNeueLight", serif;
+  font-family: "HelveticalNeueLight", sans-serif;
 }
 
 .category .row {
@@ -151,7 +151,7 @@ footer h5 {
   color: #888;
   font-size: 25px;
   text-transform: uppercase;
-  font-family: "HelveticalNeueBold", serif;
+  font-family: "HelveticalNeueBold", sans-serif;
   margin-bottom: 4px;
 }
 
@@ -168,7 +168,7 @@ footer h5 {
   color: white;
   font-size: 15px;
   text-transform: uppercase;
-  font-family: "HelveticalNeueBold", serif;
+  font-family: "HelveticalNeueBold", sans-serif;
   margin-bottom: 4px;
 }
 
@@ -201,7 +201,7 @@ footer h5 {
   z-index: 22;
   top: -15px;
   color: white;
-  font-family: "GotHamBold", serif;
+  font-family: "GotHamBold", sans-serif;
   font-weight: 700;
 }
 
@@ -213,12 +213,12 @@ footer h5 {
   color: white;
   font-size: 45px;
   text-transform: uppercase;
-  font-family: "HelveticalNeueBold", serif;
+  font-family: "HelveticalNeueBold", sans-serif;
   line-height: 0.9;
 }
 
 .logoNameBigSubscribe {
-  font-family: "GotHamRoundedLight", serif;
+  font-family: "GotHamRoundedLight", sans-serif;
 }
 
 .topMenuRow {
@@ -253,14 +253,14 @@ footer h5 {
 }
 
 .productName {
-  font-family: "GotHamBold", serif;
+  font-family: "GotHamBold", sans-serif;
   color: #383838;
   margin-bottom: 0;
 }
 
 .productPrice {
   color: #d35266;
-  font-family: "GotHamBold", serif;
+  font-family: "GotHamBold", sans-serif;
 }
 
 .productDetailsContainer {
@@ -281,7 +281,7 @@ footer h5 {
 
 .productStatus {
   color: #d35266;
-  font-family: "HelveticalNeueMedium", serif;
+  font-family: "HelveticalNeueMedium", sans-serif;
 }
 
 @media (min-width: 576px) {
