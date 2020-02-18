@@ -7,7 +7,9 @@ HTML Design for a Store front using HTML and CSS, i accomplished the use of HTML
 - CSS,
 
 ## Large screen Screenshots
-![Image](images/image1.png) | ![Image](images/image2.png) | ![Image](images/image3.png)
+![Image](images/image1.png)
+![Image](images/image2.png)
+![Image](images/image3.png)
 
 ## Medium screen Screenshots
 ![Image](images/image4.png)
