@@ -34,7 +34,7 @@ Give a ⭐️ if you like this project!
 
 👤 **Mohammed Awad**
 
-Thanks to ohammed Awad for the design of these project
+Thanks to Mohammed Awad for the design of these project
 - Design Link [Click here](https://www.behance.net/gallery/24796463/ZATTIX)
 
 ## 📝 License
