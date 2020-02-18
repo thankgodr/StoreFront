@@ -2,27 +2,22 @@
   font-family: GotHamBold;
   src: url("../font/Gotham Bold.otf") format("opentype");
 }
-
 @font-face {
   font-family: GotHamRoundedLight;
   src: url("../font/Gotham Rounded Light.otf") format("opentype");
 }
-
 @font-face {
   font-family: HelveticalNeueLight;
   src: url("../font/Helvetica-Neue-Light_22503.ttf") format("truetype");
 }
-
 @font-face {
   font-family: HelveticalNeueMedium;
   src: url("../font/HelveticaNeue-Medium.otf") format("opentype");
 }
-
 @font-face {
   font-family: HelveticalNeueBold;
   src: url("../font/HelveticaNeueBold.ttf") format("truetype");
 }
-
 p {
   font-family: "GotHamRoundedLight", serif;
   margin-bottom: 0;
@@ -48,6 +43,13 @@ footer {
 
 footer ul {
   padding: 0;
+}
+
+.flexRow {
+  display: flex;
+  margin-right: -15px;
+  margin-left: -15px;
+  flex-wrap: wrap;
 }
 
 footer .redtext {
@@ -242,6 +244,7 @@ footer h5 {
 
 .sectionHeader {
   color: #888;
+  font-size: 20px;
 }
 
 .category .sectionHeader {
@@ -286,7 +289,6 @@ footer h5 {
     margin-right: 10px;
   }
 }
-
 @media (min-width: 768px) {
   .carousel-control-prev .icon {
     left: -58px;
@@ -296,7 +298,6 @@ footer h5 {
     right: -58px;
   }
 }
-
 @media (min-width: 992px) {
   .carousel-control-prev .icon {
     left: -98px;
@@ -310,3 +311,5 @@ footer h5 {
     margin-right: 0;
   }
 }
+
+/*# sourceMappingURL=style.css.map */
