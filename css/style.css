@@ -2,10 +2,12 @@
   font-family: GotHamBold;
   src: url("../font/Gotham Bold.otf") format("opentype");
 }
+
 @font-face {
   font-family: GotHamRoundedLight;
   src: url("../font/Gotham Rounded Light.otf") format("opentype");
 }
+
 p {
   font-family: "GotHamRoundedLight", sans-serif;
   margin-bottom: 0;
@@ -293,6 +295,7 @@ footer h5 {
     flex: 1 0 50%;
   }
 }
+
 @media (min-width: 768px) {
   .carousel-control-prev .icon {
     left: -58px;
@@ -307,6 +310,7 @@ footer h5 {
     max-width: 33%;
   }
 }
+
 @media (min-width: 992px) {
   .carousel-control-prev .icon {
     left: -98px;
@@ -325,5 +329,3 @@ footer h5 {
     margin: 5px;
   }
 }
-
-/*# sourceMappingURL=style.css.map */
