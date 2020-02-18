@@ -6,6 +6,10 @@ HTML Design for a Store front using HTML and CSS, i accomplished the use of HTML
 - HTML,
 - CSS,
 
+## SreenShot
+![Image](images/image1.png)
+![Image](images/image2.png)
+![Image](images/image3.png)
 
 
 ## Authors
