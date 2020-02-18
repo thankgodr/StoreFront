@@ -1,5 +1,5 @@
 # StoreFront
-HTML Design for a Store front using HTML and CSS
+HTML Design for a Store front using HTML and CSS, i accomplished the use of HTML, CSS and css framwork bootstrap to create responsive website. Using Flexbox for Grid and also media querry to make website more reponsive. 
 
 ## Built With
 
@@ -16,6 +16,10 @@ HTML Design for a Store front using HTML and CSS
 - Twitter: [@twitterhandle](https://twitter.com/thankgodrichard)
 - Linkedin: [linkedin](https://linkedin.com/in/thankgodr)
 
+## Live Demo Link
+
+- [Live Demo Url](https://raw.githack.com/thankgodr/StoreFront/feature-dev/index.html)
+
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
@@ -28,9 +32,10 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+👤 **Mohammed Awad**
+
+Thanks to ohammed Awad for the design of these project
+- Design Link [Click here](https://www.behance.net/gallery/24796463/ZATTIX)
 
 ## 📝 License
 
