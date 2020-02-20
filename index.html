@@ -9,9 +9,9 @@
 </head>
 <body>
 	<header class="page-header">
-		 <div class="flexRow p-2 topMenuRow fixed-top">
-			 <div class="col-12 col-lg-8">
-				<ul class="menuList my-auto">
+		 <div class="flexRow topMenuRow">
+			 <div class="menuListWrapper">
+				<ul class="menuList">
 					<li> 
 						<a href="#">
 						   <i class="fa fa-tachometer logo" aria-hidden="true"></i><span class="logoName"> zattiz</span>
@@ -33,13 +33,13 @@
 						</a>
 					</li>
 
-					<li class="d-none d-md-block">
+					<li class="onlyMidiumSreen">
 						<button class="btn btn-danger">Post an Add</button>
 					</li>
 				</ul>
 			 </div>	
-			 <div class="d-none d-lg-block col-lg-4">
-				<ul class="menuList my-auto">
+			 <div class="onlyLargeScreens menuListWrapper3">
+				<ul class="menuList">
 					<li>
 						<p>
 							<span class="commentCount">98</span>
@@ -56,22 +56,22 @@
 			 </div>
 		 </div> 
 
-		 <div class="flexRow d-none mt-5 d-md-block redHeader text-center p-5">
-			<div class="col-12">
-				<p class="logoNameBig">zattiz</p>
-				<p class="text-white text-capitalize mb-5 logoNameBigSubscribe">Buting and Selling Couldn't be Simpler than this</p>
+		 <div class="flexRow onlyMidiumSreen redHeader">
+			<div class="redHeaderWrapper">
+				<h1 class="logoNameBig">zattiz</h1>
+				<h6 class="logoNameBigSubscribe">Buting and Selling Couldn't be Simpler than this</h6>
 				<div class="container">
 					<form action="search.html" method="GET" novalidate="novalidate">
 						<div class="flexRow">
 							<div class="col-lg-12">
 								<div class="flexRow">
-									<div class="col-lg-3 col-md-3 col-sm-12 p-0 order-3">
+									<div class="col-lg-3 col-md-3 col-sm-12 noPadding order-3">
 										<input type="text" class="form-control search-slt" placeholder="Enter Pickup City">
 									</div>
-									<div class="col-lg-3 col-md-3 col-sm-12 p-0 order-2">
+									<div class="col-lg-3 col-md-3 col-sm-12 noPadding order-2">
 										<input type="text" class="form-control search-slt" placeholder="Enter Drop City">
 									</div>
-									<div class="col-lg-3 col-md-3 col-sm-12 p-0 order-1 offset-1">
+									<div class="col-lg-3 col-md-3 col-sm-12 noPadding order-1 offset-1">
 										<select class="form-control search-slt">
 											<option>All Department</option>
 											<option>Electronic</option>
@@ -82,7 +82,7 @@
 											<option>Boys</option>
 										</select>
 									</div>
-									<div class="col-lg-2 col-md-2 col-sm-12 p-0 order-4 text-start">
+									<div class="col-lg-2 col-md-2 col-sm-12 noPadding order-4 text-start">
 										<button type="submit" class="btn btn-danger wrn-btn">Search</button>
 									</div>
 								</div>
@@ -95,9 +95,9 @@
 		 
 	</header>
 
-	<main class="container pr-2 pl-2">
+	<main class="container">
 		
-		<div class="addvertSline mt-4">
+		<div class="addvertSline">
 			<h1 class="sectionHeader">Hot Ads</h1>
 			<div  class="carousel slide" data-ride="carousel">
 				<div class="carousel-inner">
@@ -111,152 +111,144 @@
 					<img class="d-block w-100" src="https://via.placeholder.com/150" alt="Third slide">
 				  </div>
 				</div>
-				<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-				  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-				  <span class="sr-only">Previous</span>
-				</a>
-				<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-				  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-				  <span class="sr-only">Next</span>
-				</a>
 			</div>
 		</div>
-		<div class="flexRow featuredProducts mt-3">
+		<div class="flexRow featuredProducts">
 			<div class="col-12 headerContainer">
 				<h1 class="sectionHeader">Featured Peoducts</h1>
 
 			 <a href="#"><p class="mainColorRed">View All</p></a> 
 			</div>
-			<div class="column product p-2 text-center">
-				<div class="card w-100 p-2">
-					<div class="imgContainer mt-2">
+			<div class="column product">
+				<div class="card">
+					<div class="imgContainer">
 						<img src="http://www.dhresource.com/260x260/f2/albu/g9/M01/19/B5/rBVaWF0ZuGqAV3pOAAFcFwGxC3I958.jpg" alt="img">
 					</div>
-					<div class="productDetailsContainer p-3">
+					<div class="productDetailsContainer">
 						<h4 class="productName">Silver Watch</h4>
 						<p class="productStatus">New</p>
 						<p class="productLocation"><span>From: </span> China</p>
 					</div>
-					<div class="flexRow text-start p-2">
+					<div class="flexRow productDetailsBottom">
 						<div class="col-6"> <p><a href="#"><i class="fa fa-plus-square-o icon" aria-hidden="true"></i>
 						</a></p> </div>
 						<div class="col-6 productPrice text-end">$100</div>
 					</div>
 				</div>
 			</div>
-			<div class="column product p-2 text-center">
-				<div class="card w-100 p-2">
-					<div class="imgContainer mt-2">
+			<div class="column product">
+				<div class="card">
+					<div class="imgContainer">
 						<img src="http://www.dhresource.com/260x260/f2/albu/g9/M00/4E/47/rBVaWF3uFNyAA-uMAAFAP7EMw3U959.jpg" alt="img">
 					</div>
-					<div class="productDetailsContainer p-3">
+					<div class="productDetailsContainer">
 						<h4 class="productName">Black Jacket</h4>
 						<p class="productStatus">New</p>
 						<p class="productLocation"><span>From: </span> Japan</p>
 					</div>
-					<div class="flexRow text-start p-2">
+					<div class="flexRow productDetailsBottom">
 						<div class="col-6"> <p><a href="#"><i class="fa fa-plus-square-o icon" aria-hidden="true"></i>
 						</a></p> </div>
 						<div class="col-6 productPrice text-end">$100</div>
 					</div>
 				</div>
 			</div>
-			<div class="column product p-2 text-center">
-				<div class="card w-100 p-2">
-					<div class="imgContainer mt-2">
+			<div class="column product">
+				<div class="card">
+					<div class="imgContainer">
 						<img src="http://www.dhresource.com/260x260/f2/albu/g10/M01/59/C9/rBVaVl1nepKACBLvAAF1JlJz8U0402.jpg" alt="img">
 					</div>
-					<div class="productDetailsContainer p-3">
+					<div class="productDetailsContainer">
 						<h4 class="productName">Female Purse</h4>
 						<p class="productStatus">New</p>
 						<p class="productLocation"><span>From: </span> China</p>
 					</div>
-					<div class="flexRow text-start p-2">
+					<div class="flexRow productDetailsBottom">
 						<div class="col-6"> <p><a href="#"><i class="fa fa-plus-square-o icon" aria-hidden="true"></i>
 						</a></p> </div>
 						<div class="col-6 productPrice text-end">$100</div>
 					</div>
 				</div>
 			</div>
-			<div class="column product p-2 text-center">
-				<div class="card w-100 p-2">
-					<div class="imgContainer mt-2">
+			<div class="column product">
+				<div class="card">
+					<div class="imgContainer">
 						<img src="http://www.dhresource.com/260x260/f2/albu/g6/M00/77/8D/rBVaR1pR43mAJgwuAAOQFVnB0RY664.jpg" alt="img">
 					</div>
-					<div class="productDetailsContainer p-3">
+					<div class="productDetailsContainer">
 						<h4 class="productName">Knee Pads</h4>
 						<p class="productStatus">New</p>
 						<p class="productLocation"><span>From: </span> Germany</p>
 					</div>
-					<div class="flexRow text-start p-2">
+					<div class="flexRow productDetailsBottom">
 						<div class="col-6"> <p><a href="#"><i class="fa fa-plus-square-o icon" aria-hidden="true"></i>
 						</a></p> </div>
 						<div class="col-6 productPrice text-end">$100</div>
 					</div>
 				</div>
 			</div>
-			<div class="column product p-2 text-center">
-				<div class="card w-100 p-2">
-					<div class="imgContainer mt-2">
+			<div class="column product">
+				<div class="card">
+					<div class="imgContainer">
 						<img src="https://www.dhresource.com/fc/s009/homepage/20200210/e6.jpg" alt="img">
 					</div>
-					<div class="productDetailsContainer p-3">
+					<div class="productDetailsContainer">
 						<h4 class="productName">Bed</h4>
 						<p class="productStatus">Used</p>
 						<p class="productLocation"><span>From: </span> Germany</p>
 					</div>
-					<div class="flexRow text-start p-2">
+					<div class="flexRow productDetailsBottom">
 						<div class="col-6"> <p><a href="#"><i class="fa fa-plus-square-o icon" aria-hidden="true"></i>
 						</a></p> </div>
 						<div class="col-6 productPrice text-end">$100</div>
 					</div>
 				</div>
 			</div>
-			<div class="column product p-2 text-center">
-				<div class="card w-100 p-2">
-					<div class="imgContainer mt-2">
+			<div class="column product">
+				<div class="card">
+					<div class="imgContainer">
 						<img src="https://www.dhresource.com/fc/s009/homepage/20200210/e17.jpg" alt="img">
 					</div>
-					<div class="productDetailsContainer p-3">
+					<div class="productDetailsContainer">
 						<h4 class="productName">Flower Pot</h4>
 						<p class="productStatus">Used</p>
 						<p class="productLocation"><span>From: </span> Germany</p>
 					</div>
-					<div class="flexRow text-start p-2">
+					<div class="flexRow productDetailsBottom">
 						<div class="col-6"> <p><a href="#"><i class="fa fa-plus-square-o icon" aria-hidden="true"></i>
 						</a></p> </div>
 						<div class="col-6 productPrice text-end">$100</div>
 					</div>
 				</div>
 			</div>
-			<div class="column product p-2 text-center">
-				<div class="card w-100 p-2">
-					<div class="imgContainer mt-2">
+			<div class="column product">
+				<div class="card">
+					<div class="imgContainer">
 						<img src="https://www.dhresource.com/fc/s009/homepage/20200210/n3.jpg" alt="img">
 					</div>
-					<div class="productDetailsContainer p-3">
+					<div class="productDetailsContainer">
 						<h4 class="productName">Massage Gun</h4>
 						<p class="productStatus">New</p>
 						<p class="productLocation"><span>From: </span> Germany</p>
 					</div>
-					<div class="flexRow text-start p-2">
+					<div class="flexRow productDetailsBottom">
 						<div class="col-6"> <p><a href="#"><i class="fa fa-plus-square-o icon" aria-hidden="true"></i>
 						</a></p> </div>
 						<div class="col-6 productPrice text-end">$100</div>
 					</div>
 				</div>
 			</div>
-			<div class="column product p-2 text-center">
-				<div class="card w-100 p-2">
-					<div class="imgContainer mt-2">
+			<div class="column product">
+				<div class="card">
+					<div class="imgContainer">
 						<img src="https://www.dhresource.com/fc/s009/homepage/20200210/n8.jpg" alt="img">
 					</div>
-					<div class="productDetailsContainer p-3">
+					<div class="productDetailsContainer">
 						<h4 class="productName">Spanner Set</h4>
 						<p class="productStatus">New</p>
 						<p class="productLocation"><span>From: </span> China</p>
 					</div>
-					<div class="flexRow text-start p-2">
+					<div class="flexRow productDetailsBottom">
 						<div class="col-6"> <p><a href="#"><i class="fa fa-plus-square-o icon" aria-hidden="true"></i>
 						</a></p> </div>
 						<div class="col-6 productPrice text-end">$100</div>
@@ -265,7 +257,7 @@
 			</div>
 		</div>
 
-		<div class="category mt-4">
+		<div class="category">
 			<div class="flexRow">
 				<div class="col-12  headerContainer">
 					<h1 class="sectionHeader"><i class="fa fa-laptop" aria-hidden="true"></i>
@@ -277,68 +269,68 @@
 				<div class="carousel-inner">
 				  <div class="carousel-item active">
 					 <div class="flexRow flex-nowrap ">
-						<div class="column product p-2 text-center">
-							<div class="card w-100 p-2">
-								<div class="imgContainer mt-2">
+						<div class="column product">
+							<div class="card">
+								<div class="imgContainer">
 									<img src="http://www.dhresource.com/300x300s/f2-albu-g7-M00-21-CD-rBVaSls-1KSAeKB1AAIjF3-0OZ0454.jpg/boombox-bluetooth-speaker-3d-hifi-subwoofer.jpg" alt="img">
 								</div>
-								<div class="productDetailsContainer p-3">
+								<div class="productDetailsContainer">
 									<h4 class="productName">Speaker 10F</h4>
 									<p class="productStatus">New</p>
 									<p class="productLocation"><span>From: </span> China</p>
 								</div>
-								<div class="flexRow text-start p-2">
+								<div class="flexRow productDetailsBottom">
 									<div class="col-6"> <p><a href="#"><i class="fa fa-plus-square-o icon" aria-hidden="true"></i>
 									</a></p> </div>
 									<div class="col-6 productPrice text-end">$100</div>
 								</div>
 							</div>
 						</div>
-						<div class="column product p-2 text-center">
-							<div class="card w-100 p-2">
-								<div class="imgContainer mt-2">
+						<div class="column product">
+							<div class="card">
+								<div class="imgContainer">
 									<img src="https://www.dhresource.com/300x300s/f2-albu-g7-M01-61-B7-rBVaSVpkFjyAZff9AAHClTiWoYs305.jpg/slim-bluetooth-soundbar-lp-08-hifi-box-wireless.jpg" alt="img">
 								</div>
-								<div class="productDetailsContainer p-3">
+								<div class="productDetailsContainer">
 									<h4 class="productName">Slim Bluetooth</h4>
 									<p class="productStatus">New</p>
 									<p class="productLocation"><span>From: </span>China</p>
 								</div>
-								<div class="flexRow text-start p-2">
+								<div class="flexRow productDetailsBottom">
 									<div class="col-6"> <p><a href="#"><i class="fa fa-plus-square-o icon" aria-hidden="true"></i>
 									</a></p> </div>
 									<div class="col-6 productPrice text-end">$100</div>
 								</div>
 							</div>
 						</div>
-						<div class="column product p-2 text-center">
-							<div class="card w-100 p-2">
-								<div class="imgContainer mt-2">
+						<div class="column product">
+							<div class="card">
+								<div class="imgContainer">
 									<img src="http://www.dhresource.com/260x260/f2/albu/g8/M00/AF/89/rBVaVF4UORqACTBGAAXLzLRd1sI290.jpg" alt="img">
 								</div>
-								<div class="productDetailsContainer p-3">
+								<div class="productDetailsContainer">
 									<h4 class="productName">Display Monitor</h4>
 									<p class="productStatus">New</p>
 									<p class="productLocation"><span>From: </span> Ghana</p>
 								</div>
-								<div class="flexRow text-start p-2">
+								<div class="flexRow productDetailsBottom">
 									<div class="col-6"> <p><a href="#"><i class="fa fa-plus-square-o icon" aria-hidden="true"></i>
 									</a></p> </div>
 									<div class="col-6 productPrice text-end">$100</div>
 								</div>
 							</div>
 						</div>
-						<div class="column product p-2 text-center">
-							<div class="card w-100 p-2">
-								<div class="imgContainer mt-2">
+						<div class="column product">
+							<div class="card">
+								<div class="imgContainer">
 									<img src="http://www.dhresource.com/300x300s/f2-albu-g9-M00-F8-DF-rBVaWFzdSCKAbzm9AAECNmExut0929.jpg/tcl-50-inch-high-quality-4k-ultra-clear-hdr.jpg" alt="img">
 								</div>
-								<div class="productDetailsContainer p-3">
+								<div class="productDetailsContainer">
 									<h4 class="productName">50inch TV</h4>
 									<p class="productStatus">New</p>
 									<p class="productLocation"><span>From: </span> Product Details</p>
 								</div>
-								<div class="flexRow text-start p-2">
+								<div class="flexRow productDetailsBottom">
 									<div class="col-6"> <p><a href="#"><i class="fa fa-plus-square-o icon" aria-hidden="true"></i>
 									</a></p> </div>
 									<div class="col-6 productPrice text-end">$100</div>
@@ -349,68 +341,68 @@
 				  </div>
 				  <div class="carousel-item">
 					<div class="flexRow flex-nowrap">
-						<div class="column product p-2 text-center">
-							<div class="card w-100 p-2">
-								<div class="imgContainer mt-2">
+						<div class="column product">
+							<div class="card">
+								<div class="imgContainer">
 									<img src="https://via.placeholder.com/150" alt="img">
 								</div>
-								<div class="productDetailsContainer p-3">
+								<div class="productDetailsContainer">
 									<h4 class="productName">Product Name</h4>
 									<p class="productStatus">Status</p>
 									<p class="productLocation"><span>From: </span> Product Details</p>
 								</div>
-								<div class="flexRow text-start p-2">
+								<div class="flexRow productDetailsBottom">
 									<div class="col-6"> <p><a href="#"><i class="fa fa-plus-square-o icon" aria-hidden="true"></i>
 									</a></p> </div>
 									<div class="col-6 productPrice text-end">$100</div>
 								</div>
 							</div>
 						</div>
-						<div class="column product p-2 text-center">
-							<div class="card w-100 p-2">
-								<div class="imgContainer mt-2">
+						<div class="column product">
+							<div class="card">
+								<div class="imgContainer">
 									<img src="https://via.placeholder.com/150" alt="img">
 								</div>
-								<div class="productDetailsContainer p-3">
+								<div class="productDetailsContainer">
 									<h4 class="productName">Product Name</h4>
 									<p class="productStatus">Status</p>
 									<p class="productLocation"><span>From: </span> Product Details</p>
 								</div>
-								<div class="flexRow text-start p-2">
+								<div class="flexRow productDetailsBottom">
 									<div class="col-6"> <p><a href="#"><i class="fa fa-plus-square-o icon" aria-hidden="true"></i>
 									</a></p> </div>
 									<div class="col-6 productPrice text-end">$100</div>
 								</div>
 							</div>
 						</div>
-						<div class="column product p-2 text-center">
-							<div class="card w-100 p-2">
-								<div class="imgContainer mt-2">
+						<div class="column product">
+							<div class="card">
+								<div class="imgContainer">
 									<img src="https://via.placeholder.com/150" alt="img">
 								</div>
-								<div class="productDetailsContainer p-3">
+								<div class="productDetailsContainer">
 									<h4 class="productName">Product Name</h4>
 									<p class="productStatus">Status</p>
 									<p class="productLocation"><span>From: </span> Product Details</p>
 								</div>
-								<div class="flexRow text-start p-2">
+								<div class="flexRow productDetailsBottom">
 									<div class="col-6"> <p><a href="#"><i class="fa fa-plus-square-o icon" aria-hidden="true"></i>
 									</a></p> </div>
 									<div class="col-6 productPrice text-end">$100</div>
 								</div>
 							</div>
 						</div>
-						<div class="column product p-2 text-center">
-							<div class="card w-100 p-2">
-								<div class="imgContainer mt-2">
+						<div class="column product">
+							<div class="card">
+								<div class="imgContainer">
 									<img src="https://via.placeholder.com/150" alt="img">
 								</div>
-								<div class="productDetailsContainer p-3">
+								<div class="productDetailsContainer">
 									<h4 class="productName">Product Name</h4>
 									<p class="productStatus">Status</p>
 									<p class="productLocation"><span>From: </span> Product Details</p>
 								</div>
-								<div class="flexRow text-start p-2">
+								<div class="flexRow productDetailsBottom">
 									<div class="col-6"> <p><a href="#"><i class="fa fa-plus-square-o icon" aria-hidden="true"></i>
 									</a></p> </div>
 									<div class="col-6 productPrice text-end">$100</div>
@@ -421,68 +413,68 @@
 				  </div>
 				  <div class="carousel-item">
 					<div class="flexRow flex-nowrap">
-						<div class="column product p-2 text-center">
-							<div class="card w-100 p-2">
-								<div class="imgContainer mt-2">
+						<div class="column product">
+							<div class="card">
+								<div class="imgContainer">
 									<img src="https://via.placeholder.com/150" alt="img">
 								</div>
-								<div class="productDetailsContainer p-3">
+								<div class="productDetailsContainer">
 									<h4 class="productName">Product Name</h4>
 									<p class="productStatus">Status</p>
 									<p class="productLocation"><span>From: </span> Product Details</p>
 								</div>
-								<div class="flexRow text-start p-2">
+								<div class="flexRow productDetailsBottom">
 									<div class="col-6"> <p><a href="#"><i class="fa fa-plus-square-o icon" aria-hidden="true"></i>
 									</a></p> </div>
 									<div class="col-6 productPrice text-end">$100</div>
 								</div>
 							</div>
 						</div>
-						<div class="column product p-2 text-center">
-							<div class="card w-100 p-2">
-								<div class="imgContainer mt-2">
+						<div class="column product">
+							<div class="card">
+								<div class="imgContainer">
 									<img src="https://via.placeholder.com/150" alt="img">
 								</div>
-								<div class="productDetailsContainer p-3">
+								<div class="productDetailsContainer">
 									<h4 class="productName">Product Name</h4>
 									<p class="productStatus">Status</p>
 									<p class="productLocation"><span>From: </span> Product Details</p>
 								</div>
-								<div class="flexRow text-start p-2">
+								<div class="flexRow productDetailsBottom">
 									<div class="col-6"> <p><a href="#"><i class="fa fa-plus-square-o icon" aria-hidden="true"></i>
 									</a></p> </div>
 									<div class="col-6 productPrice text-end">$100</div>
 								</div>
 							</div>
 						</div>
-						<div class="column product p-2 text-center">
-							<div class="card w-100 p-2">
-								<div class="imgContainer mt-2">
+						<div class="column product">
+							<div class="card">
+								<div class="imgContainer">
 									<img src="https://via.placeholder.com/150" alt="img">
 								</div>
-								<div class="productDetailsContainer p-3">
+								<div class="productDetailsContainer">
 									<h4 class="productName">Product Name</h4>
 									<p class="productStatus">Status</p>
 									<p class="productLocation"><span>From: </span> Product Details</p>
 								</div>
-								<div class="flexRow text-start p-2">
+								<div class="flexRow productDetailsBottom">
 									<div class="col-6"> <p><a href="#"><i class="fa fa-plus-square-o icon" aria-hidden="true"></i>
 									</a></p> </div>
 									<div class="col-6 productPrice text-end">$100</div>
 								</div>
 							</div>
 						</div>
-						<div class="column product p-2 text-center">
-							<div class="card w-100 p-2">
-								<div class="imgContainer mt-2">
+						<div class="column product">
+							<div class="card">
+								<div class="imgContainer">
 									<img src="https://via.placeholder.com/150" alt="img">
 								</div>
-								<div class="productDetailsContainer p-3">
+								<div class="productDetailsContainer">
 									<h4 class="productName">Product Name</h4>
 									<p class="productStatus">Status</p>
 									<p class="productLocation"><span>From: </span> Product Details</p>
 								</div>
-								<div class="flexRow text-start p-2">
+								<div class="flexRow productDetailsBottom">
 									<div class="col-6"> <p><a href="#"><i class="fa fa-plus-square-o icon" aria-hidden="true"></i>
 									</a></p> </div>
 									<div class="col-6 productPrice text-end">$100</div>
@@ -503,7 +495,7 @@
 			</div>
 		</div>
 
-		<div class="category mt-4">
+		<div class="category">
 			<div class="flexRow">
 				<div class="col-12 headerContainer">
 					<h1 class="sectionHeader"><i class="fa fa-cutlery" aria-hidden="true"></i>
@@ -516,68 +508,68 @@
 				<div class="carousel-inner">
 				  <div class="carousel-item active">
 					 <div class="flexRow flex-nowrap ">
-						<div class="column product p-2 text-center">
-							<div class="card w-100 p-2">
-								<div class="imgContainer mt-2">
+						<div class="column product">
+							<div class="card">
+								<div class="imgContainer">
 									<img src="https://www.dhresource.com/300x300s/f2-albu-g8-M00-6F-DF-rBVaV1zjcFuAQo2vAAYrEvHYeFg180.jpg/useful-cheese-tools-set-4pcs-set-oak-handle.jpg" alt="img">
 								</div>
-								<div class="productDetailsContainer p-3">
+								<div class="productDetailsContainer">
 									<h4 class="productName">Knife Set</h4>
 									<p class="productStatus">New</p>
 									<p class="productLocation"><span>From: </span> China</p>
 								</div>
-								<div class="flexRow text-start p-2">
+								<div class="flexRow productDetailsBottom">
 									<div class="col-6"> <p><a href="#"><i class="fa fa-plus-square-o icon" aria-hidden="true"></i>
 									</a></p> </div>
 									<div class="col-6 productPrice text-end">$100</div>
 								</div>
 							</div>
 						</div>
-						<div class="column product p-2 text-center">
-							<div class="card w-100 p-2">
-								<div class="imgContainer mt-2">
+						<div class="column product">
+							<div class="card">
+								<div class="imgContainer">
 									<img src="https://www.dhresource.com/300x300s/f2-albu-g7-M01-83-61-rBVaSlo51QuATDyuAAKyFHDZN3o947.jpg/christmas-party-mandoline-slicer-vegetable.jpg" alt="img">
 								</div>
-								<div class="productDetailsContainer p-3">
+								<div class="productDetailsContainer">
 									<h4 class="productName">Vegi Cutter</h4>
 									<p class="productStatus">New</p>
 									<p class="productLocation"><span>From: </span> China</p>
 								</div>
-								<div class="flexRow text-start p-2">
+								<div class="flexRow productDetailsBottom">
 									<div class="col-6"> <p><a href="#"><i class="fa fa-plus-square-o icon" aria-hidden="true"></i>
 									</a></p> </div>
 									<div class="col-6 productPrice text-end">$100</div>
 								</div>
 							</div>
 						</div>
-						<div class="column product p-2 text-center">
-							<div class="card w-100 p-2">
-								<div class="imgContainer mt-2">
+						<div class="column product">
+							<div class="card">
+								<div class="imgContainer">
 									<img src="https://www.dhresource.com/300x300s/f2-albu-g9-M01-4C-41-rBVaVV2nAcqATWnJAAEUSETAD2s354.jpg/1300c-butane-scorch-torch-jet-flame-lighters.jpg" alt="img">
 								</div>
-								<div class="productDetailsContainer p-3">
+								<div class="productDetailsContainer">
 									<h4 class="productName">Scouch Touch</h4>
 									<p class="productStatus">New</p>
 									<p class="productLocation"><span>From: </span> China</p>
 								</div>
-								<div class="flexRow text-start p-2">
+								<div class="flexRow productDetailsBottom">
 									<div class="col-6"> <p><a href="#"><i class="fa fa-plus-square-o icon" aria-hidden="true"></i>
 									</a></p> </div>
 									<div class="col-6 productPrice text-end">$100</div>
 								</div>
 							</div>
 						</div>
-						<div class="column product p-2 text-center">
-							<div class="card w-100 p-2">
-								<div class="imgContainer mt-2">
+						<div class="column product">
+							<div class="card">
+								<div class="imgContainer">
 									<img src="https://www.dhresource.com/300x300s/f2-albu-g4-M01-55-D9-rBVaEVnEkO-AJ4GXAAFJQxa-tHo521.jpg/table-silicone-pad-silicone-non-slip-heat.jpg" alt="img">
 								</div>
-								<div class="productDetailsContainer p-3">
+								<div class="productDetailsContainer">
 									<h4 class="productName">Mat Coaster</h4>
 									<p class="productStatus">New</p>
 									<p class="productLocation"><span>From: </span> Lagos</p>
 								</div>
-								<div class="flexRow text-start p-2">
+								<div class="flexRow productDetailsBottom">
 									<div class="col-6"> <p><a href="#"><i class="fa fa-plus-square-o icon" aria-hidden="true"></i>
 									</a></p> </div>
 									<div class="col-6 productPrice text-end">$100</div>
@@ -588,68 +580,68 @@
 				  </div>
 				  <div class="carousel-item">
 					<div class="flexRow flex-nowrap">
-						<div class="column product p-2 text-center">
-							<div class="card w-100 p-2">
-								<div class="imgContainer mt-2">
+						<div class="column product">
+							<div class="card">
+								<div class="imgContainer">
 									<img src="https://via.placeholder.com/150" alt="img">
 								</div>
-								<div class="productDetailsContainer p-3">
+								<div class="productDetailsContainer">
 									<h4 class="productName">Product Name</h4>
 									<p class="productStatus">Status</p>
 									<p class="productLocation"><span>From: </span> Product Details</p>
 								</div>
-								<div class="flexRow text-start p-2">
+								<div class="flexRow productDetailsBottom">
 									<div class="col-6"> <p><a href="#"><i class="fa fa-plus-square-o icon" aria-hidden="true"></i>
 									</a></p> </div>
 									<div class="col-6 productPrice text-end">$100</div>
 								</div>
 							</div>
 						</div>
-						<div class="column product p-2 text-center">
-							<div class="card w-100 p-2">
-								<div class="imgContainer mt-2">
+						<div class="column product">
+							<div class="card">
+								<div class="imgContainer">
 									<img src="https://via.placeholder.com/150" alt="img">
 								</div>
-								<div class="productDetailsContainer p-3">
+								<div class="productDetailsContainer">
 									<h4 class="productName">Product Name</h4>
 									<p class="productStatus">Status</p>
 									<p class="productLocation"><span>From: </span> Product Details</p>
 								</div>
-								<div class="flexRow text-start p-2">
+								<div class="flexRow productDetailsBottom">
 									<div class="col-6"> <p><a href="#"><i class="fa fa-plus-square-o icon" aria-hidden="true"></i>
 									</a></p> </div>
 									<div class="col-6 productPrice text-end">$100</div>
 								</div>
 							</div>
 						</div>
-						<div class="column product p-2 text-center">
-							<div class="card w-100 p-2">
-								<div class="imgContainer mt-2">
+						<div class="column product">
+							<div class="card">
+								<div class="imgContainer">
 									<img src="https://via.placeholder.com/150" alt="img">
 								</div>
-								<div class="productDetailsContainer p-3">
+								<div class="productDetailsContainer">
 									<h4 class="productName">Product Name</h4>
 									<p class="productStatus">Status</p>
 									<p class="productLocation"><span>From: </span> Product Details</p>
 								</div>
-								<div class="flexRow text-start p-2">
+								<div class="flexRow productDetailsBottom">
 									<div class="col-6"> <p><a href="#"><i class="fa fa-plus-square-o icon" aria-hidden="true"></i>
 									</a></p> </div>
 									<div class="col-6 productPrice text-end">$100</div>
 								</div>
 							</div>
 						</div>
-						<div class="column product p-2 text-center">
-							<div class="card w-100 p-2">
-								<div class="imgContainer mt-2">
+						<div class="column product">
+							<div class="card">
+								<div class="imgContainer">
 									<img src="https://via.placeholder.com/150" alt="img">
 								</div>
-								<div class="productDetailsContainer p-3">
+								<div class="productDetailsContainer">
 									<h4 class="productName">Product Name</h4>
 									<p class="productStatus">Status</p>
 									<p class="productLocation"><span>From: </span> Product Details</p>
 								</div>
-								<div class="flexRow text-start p-2">
+								<div class="flexRow productDetailsBottom">
 									<div class="col-6"> <p><a href="#"><i class="fa fa-plus-square-o icon" aria-hidden="true"></i>
 									</a></p> </div>
 									<div class="col-6 productPrice text-end">$100</div>
@@ -660,68 +652,68 @@
 				  </div>
 				  <div class="carousel-item">
 					<div class="flexRow flex-nowrap">
-						<div class="column product p-2 text-center">
-							<div class="card w-100 p-2">
-								<div class="imgContainer mt-2">
+						<div class="column product">
+							<div class="card">
+								<div class="imgContainer">
 									<img src="https://via.placeholder.com/150" alt="img">
 								</div>
-								<div class="productDetailsContainer p-3">
+								<div class="productDetailsContainer">
 									<h4 class="productName">Product Name</h4>
 									<p class="productStatus">Status</p>
 									<p class="productLocation"><span>From: </span> Product Details</p>
 								</div>
-								<div class="flexRow text-start p-2">
+								<div class="flexRow productDetailsBottom">
 									<div class="col-6"> <p><a href="#"><i class="fa fa-plus-square-o icon" aria-hidden="true"></i>
 									</a></p> </div>
 									<div class="col-6 productPrice text-end">$100</div>
 								</div>
 							</div>
 						</div>
-						<div class="column product p-2 text-center">
-							<div class="card w-100 p-2">
-								<div class="imgContainer mt-2">
+						<div class="column product">
+							<div class="card">
+								<div class="imgContainer">
 									<img src="https://via.placeholder.com/150" alt="img">
 								</div>
-								<div class="productDetailsContainer p-3">
+								<div class="productDetailsContainer">
 									<h4 class="productName">Product Name</h4>
 									<p class="productStatus">Status</p>
 									<p class="productLocation"><span>From: </span> Product Details</p>
 								</div>
-								<div class="flexRow text-start p-2">
+								<div class="flexRow productDetailsBottom">
 									<div class="col-6"> <p><a href="#"><i class="fa fa-plus-square-o icon" aria-hidden="true"></i>
 									</a></p> </div>
 									<div class="col-6 productPrice text-end">$100</div>
 								</div>
 							</div>
 						</div>
-						<div class="column product p-2 text-center">
-							<div class="card w-100 p-2">
-								<div class="imgContainer mt-2">
+						<div class="column product">
+							<div class="card">
+								<div class="imgContainer">
 									<img src="https://via.placeholder.com/150" alt="img">
 								</div>
-								<div class="productDetailsContainer p-3">
+								<div class="productDetailsContainer">
 									<h4 class="productName">Product Name</h4>
 									<p class="productStatus">Status</p>
 									<p class="productLocation"><span>From: </span> Product Details</p>
 								</div>
-								<div class="flexRow text-start p-2">
+								<div class="flexRow productDetailsBottom">
 									<div class="col-6"> <p><a href="#"><i class="fa fa-plus-square-o icon" aria-hidden="true"></i>
 									</a></p> </div>
 									<div class="col-6 productPrice text-end">$100</div>
 								</div>
 							</div>
 						</div>
-						<div class="column product p-2 text-center">
-							<div class="card w-100 p-2">
-								<div class="imgContainer mt-2">
+						<div class="column product">
+							<div class="card">
+								<div class="imgContainer">
 									<img src="https://via.placeholder.com/150" alt="img">
 								</div>
-								<div class="productDetailsContainer p-3">
+								<div class="productDetailsContainer">
 									<h4 class="productName">Product Name</h4>
 									<p class="productStatus">Status</p>
 									<p class="productLocation"><span>From: </span> Product Details</p>
 								</div>
-								<div class="flexRow text-start p-2">
+								<div class="flexRow productDetailsBottom">
 									<div class="col-6"> <p><a href="#"><i class="fa fa-plus-square-o icon" aria-hidden="true"></i>
 									</a></p> </div>
 									<div class="col-6 productPrice text-end">$100</div>
@@ -742,7 +734,7 @@
 			</div>
 		</div>
 
-		<div class="category mt-4">
+		<div class="category">
 			<div class="flexRow">
 				<div class="col-12 headerContainer">
 					<h1 class="sectionHeader"><i class="fa fa-arrows-alt" aria-hidden="true"></i>
@@ -755,68 +747,68 @@
 				<div class="carousel-inner">
 				  <div class="carousel-item active">
 					 <div class="flexRow flex-nowrap ">
-						<div class="column product p-2 text-center">
-							<div class="card w-100 p-2">
-								<div class="imgContainer mt-2">
+						<div class="column product">
+							<div class="card">
+								<div class="imgContainer">
 									<img src="https://www.dhresource.com/300x300s/f2-albu-g7-M00-B4-D5-rBVaSVsfPQWAd1PoAAhCcrZb-9M908.jpg/wedding-party-chair-cover-restaurant-hotel.jpg" alt="img">
 								</div>
-								<div class="productDetailsContainer p-3">
+								<div class="productDetailsContainer">
 									<h4 class="productName">Party Chiars</h4>
 									<p class="productStatus">Used</p>
 									<p class="productLocation"><span>From: </span> China</p>
 								</div>
-								<div class="flexRow text-start p-2">
+								<div class="flexRow productDetailsBottom">
 									<div class="col-6"> <p><a href="#"><i class="fa fa-plus-square-o icon" aria-hidden="true"></i>
 									</a></p> </div>
 									<div class="col-6 productPrice text-end">$100</div>
 								</div>
 							</div>
 						</div>
-						<div class="column product p-2 text-center">
-							<div class="card w-100 p-2">
-								<div class="imgContainer mt-2">
+						<div class="column product">
+							<div class="card">
+								<div class="imgContainer">
 									<img src="https://www.dhresource.com/300x300s/f2-albu-g7-M00-B4-D5-rBVaSVsfPQWAd1PoAAhCcrZb-9M908.jpg/wedding-party-chair-cover-restaurant-hotel.jpg" alt="img">
 								</div>
-								<div class="productDetailsContainer p-3">
+								<div class="productDetailsContainer">
 									<h4 class="productName">Wedding Favors</h4>
 									<p class="productStatus">Used</p>
 									<p class="productLocation"><span>From: </span> China</p>
 								</div>
-								<div class="flexRow text-start p-2">
+								<div class="flexRow productDetailsBottom">
 									<div class="col-6"> <p><a href="#"><i class="fa fa-plus-square-o icon" aria-hidden="true"></i>
 									</a></p> </div>
 									<div class="col-6 productPrice text-end">$100</div>
 								</div>
 							</div>
 						</div>
-						<div class="column product p-2 text-center">
-							<div class="card w-100 p-2">
-								<div class="imgContainer mt-2">
+						<div class="column product">
+							<div class="card">
+								<div class="imgContainer">
 									<img src="https://www.dhresource.com/300x300s/f2-albu-g6-M00-B7-C9-rBVaR1s_O9CAA8qFAAeCYKnin9Y891.jpg/marble-pattern-bedding-sets-duvet-cover-set.jpg" alt="img">
 								</div>
-								<div class="productDetailsContainer p-3">
+								<div class="productDetailsContainer">
 									<h4 class="productName">Bed sheets</h4>
 									<p class="productStatus">Used</p>
 									<p class="productLocation"><span>From: </span> China</p>
 								</div>
-								<div class="flexRow text-start p-2">
+								<div class="flexRow productDetailsBottom">
 									<div class="col-6"> <p><a href="#"><i class="fa fa-plus-square-o icon" aria-hidden="true"></i>
 									</a></p> </div>
 									<div class="col-6 productPrice text-end">$100</div>
 								</div>
 							</div>
 						</div>
-						<div class="column product p-2 text-center">
-							<div class="card w-100 p-2">
-								<div class="imgContainer mt-2">
+						<div class="column product">
+							<div class="card">
+								<div class="imgContainer">
 									<img src="https://www.dhresource.com/300x300s/f2-albu-g10-M00-8B-21-rBVaVl2aSsiAHDRyAAFAVaj2COU947.jpg/bedding-sets-fashion-king-queen-size-bedding.jpg" alt="img">
 								</div>
-								<div class="productDetailsContainer p-3">
+								<div class="productDetailsContainer">
 									<h4 class="productName">Gucci Bed</h4>
 									<p class="productStatus">Used</p>
 									<p class="productLocation"><span>From: </span> China</p>
 								</div>
-								<div class="flexRow text-start p-2">
+								<div class="flexRow productDetailsBottom">
 									<div class="col-6"> <p><a href="#"><i class="fa fa-plus-square-o icon" aria-hidden="true"></i>
 									</a></p> </div>
 									<div class="col-6 productPrice text-end">$100</div>
@@ -827,68 +819,68 @@
 				  </div>
 				  <div class="carousel-item">
 					<div class="flexRow flex-nowrap">
-						<div class="column product p-2 text-center">
-							<div class="card w-100 p-2">
-								<div class="imgContainer mt-2">
+						<div class="column product">
+							<div class="card">
+								<div class="imgContainer">
 									<img src="https://www.dhresource.com/0x0s/f2-albu-g3-M00-3C-F7-rBVaHVUWRHaAHjmtAAI3KtJK7LY918.jpg/Women%20Sexy%20Bikini%20white%20black%20blue%20Cover%20Up%20Lace%20Hollow%20Crochet%20Swim%20Suit%20Swimwear%20Beach%20Dress%20free%20DHL%20B52.jpg" alt="img">
 								</div>
-								<div class="productDetailsContainer p-3">
+								<div class="productDetailsContainer">
 									<h4 class="productName">Sleep Ware</h4>
 									<p class="productStatus">New</p>
 									<p class="productLocation"><span>From: </span> China</p>
 								</div>
-								<div class="flexRow text-start p-2">
+								<div class="flexRow productDetailsBottom">
 									<div class="col-6"> <p><a href="#"><i class="fa fa-plus-square-o icon" aria-hidden="true"></i>
 									</a></p> </div>
 									<div class="col-6 productPrice text-end">$100</div>
 								</div>
 							</div>
 						</div>
-						<div class="column product p-2 text-center">
-							<div class="card w-100 p-2">
-								<div class="imgContainer mt-2">
+						<div class="column product">
+							<div class="card">
+								<div class="imgContainer">
 									<img src="https://via.placeholder.com/150" alt="img">
 								</div>
-								<div class="productDetailsContainer p-3">
+								<div class="productDetailsContainer">
 									<h4 class="productName">Product Name</h4>
 									<p class="productStatus">Status</p>
 									<p class="productLocation"><span>From: </span> Product Details</p>
 								</div>
-								<div class="flexRow text-start p-2">
+								<div class="flexRow productDetailsBottom">
 									<div class="col-6"> <p><a href="#"><i class="fa fa-plus-square-o icon" aria-hidden="true"></i>
 									</a></p> </div>
 									<div class="col-6 productPrice text-end">$100</div>
 								</div>
 							</div>
 						</div>
-						<div class="column product p-2 text-center">
-							<div class="card w-100 p-2">
-								<div class="imgContainer mt-2">
+						<div class="column product">
+							<div class="card">
+								<div class="imgContainer">
 									<img src="https://via.placeholder.com/150" alt="img">
 								</div>
-								<div class="productDetailsContainer p-3">
+								<div class="productDetailsContainer">
 									<h4 class="productName">Product Name</h4>
 									<p class="productStatus">Status</p>
 									<p class="productLocation"><span>From: </span> Product Details</p>
 								</div>
-								<div class="flexRow text-start p-2">
+								<div class="flexRow productDetailsBottom">
 									<div class="col-6"> <p><a href="#"><i class="fa fa-plus-square-o icon" aria-hidden="true"></i>
 									</a></p> </div>
 									<div class="col-6 productPrice text-end">$100</div>
 								</div>
 							</div>
 						</div>
-						<div class="column product p-2 text-center">
-							<div class="card w-100 p-2">
-								<div class="imgContainer mt-2">
+						<div class="column product">
+							<div class="card">
+								<div class="imgContainer">
 									<img src="https://via.placeholder.com/150" alt="img">
 								</div>
-								<div class="productDetailsContainer p-3">
+								<div class="productDetailsContainer">
 									<h4 class="productName">Product Name</h4>
 									<p class="productStatus">Status</p>
 									<p class="productLocation"><span>From: </span> Product Details</p>
 								</div>
-								<div class="flexRow text-start p-2">
+								<div class="flexRow productDetailsBottom">
 									<div class="col-6"> <p><a href="#"><i class="fa fa-plus-square-o icon" aria-hidden="true"></i>
 									</a></p> </div>
 									<div class="col-6 productPrice text-end">$100</div>
@@ -899,68 +891,68 @@
 				  </div>
 				  <div class="carousel-item">
 					<div class="flexRow flex-nowrap">
-						<div class="column product p-2 text-center">
-							<div class="card w-100 p-2">
-								<div class="imgContainer mt-2">
+						<div class="column product">
+							<div class="card">
+								<div class="imgContainer">
 									<img src="https://via.placeholder.com/150" alt="img">
 								</div>
-								<div class="productDetailsContainer p-3">
+								<div class="productDetailsContainer">
 									<h4 class="productName">Product Name</h4>
 									<p class="productStatus">Status</p>
 									<p class="productLocation"><span>From: </span> Product Details</p>
 								</div>
-								<div class="flexRow text-start p-2">
+								<div class="flexRow productDetailsBottom">
 									<div class="col-6"> <p><a href="#"><i class="fa fa-plus-square-o icon" aria-hidden="true"></i>
 									</a></p> </div>
 									<div class="col-6 productPrice text-end">$100</div>
 								</div>
 							</div>
 						</div>
-						<div class="column product p-2 text-center">
-							<div class="card w-100 p-2">
-								<div class="imgContainer mt-2">
+						<div class="column product">
+							<div class="card">
+								<div class="imgContainer">
 									<img src="https://via.placeholder.com/150" alt="img">
 								</div>
-								<div class="productDetailsContainer p-3">
+								<div class="productDetailsContainer">
 									<h4 class="productName">Product Name</h4>
 									<p class="productStatus">Status</p>
 									<p class="productLocation"><span>From: </span> Product Details</p>
 								</div>
-								<div class="flexRow text-start p-2">
+								<div class="flexRow productDetailsBottom">
 									<div class="col-6"> <p><a href="#"><i class="fa fa-plus-square-o icon" aria-hidden="true"></i>
 									</a></p> </div>
 									<div class="col-6 productPrice text-end">$100</div>
 								</div>
 							</div>
 						</div>
-						<div class="column product p-2 text-center">
-							<div class="card w-100 p-2">
-								<div class="imgContainer mt-2">
+						<div class="column product">
+							<div class="card">
+								<div class="imgContainer">
 									<img src="https://via.placeholder.com/150" alt="img">
 								</div>
-								<div class="productDetailsContainer p-3">
+								<div class="productDetailsContainer">
 									<h4 class="productName">Product Name</h4>
 									<p class="productStatus">Status</p>
 									<p class="productLocation"><span>From: </span> Product Details</p>
 								</div>
-								<div class="flexRow text-start p-2">
+								<div class="flexRow productDetailsBottom">
 									<div class="col-6"> <p><a href="#"><i class="fa fa-plus-square-o icon" aria-hidden="true"></i>
 									</a></p> </div>
 									<div class="col-6 productPrice text-end">$100</div>
 								</div>
 							</div>
 						</div>
-						<div class="column product p-2 text-center">
-							<div class="card w-100 p-2">
-								<div class="imgContainer mt-2">
+						<div class="column product">
+							<div class="card">
+								<div class="imgContainer">
 									<img src="https://via.placeholder.com/150" alt="img">
 								</div>
-								<div class="productDetailsContainer p-3">
+								<div class="productDetailsContainer">
 									<h4 class="productName">Product Name</h4>
 									<p class="productStatus">Status</p>
 									<p class="productLocation"><span>From: </span> Product Details</p>
 								</div>
-								<div class="flexRow text-start p-2">
+								<div class="flexRow productDetailsBottom">
 									<div class="col-6"> <p><a href="#"><i class="fa fa-plus-square-o icon" aria-hidden="true"></i>
 									</a></p> </div>
 									<div class="col-6 productPrice text-end">$100</div>
@@ -981,7 +973,7 @@
 			</div>
 		</div>
 
-		<div class="category mt-4">
+		<div class="category">
 			<div class="flexRow">
 				<div class="col-12 headerContainer">
 					<h1 class="sectionHeader"><i class="fa fa-laptop" aria-hidden="true"></i>
@@ -995,68 +987,68 @@
 				<div class="carousel-inner">
 				  <div class="carousel-item active">
 					 <div class="flexRow flex-nowrap ">
-						<div class="column product p-2 text-center">
-							<div class="card w-100 p-2">
-								<div class="imgContainer mt-2">
+						<div class="column product">
+							<div class="card">
+								<div class="imgContainer">
 									<img src="https://www.dhresource.com/0x0s/f2-albu-g3-M00-3C-F7-rBVaHVUWRHaAHjmtAAI3KtJK7LY918.jpg/Women%20Sexy%20Bikini%20white%20black%20blue%20Cover%20Up%20Lace%20Hollow%20Crochet%20Swim%20Suit%20Swimwear%20Beach%20Dress%20free%20DHL%20B52.jpg" alt="img">
 								</div>
-								<div class="productDetailsContainer p-3">
+								<div class="productDetailsContainer">
 									<h4 class="productName">Sleep Wears</h4>
 									<p class="productStatus">New</p>
 									<p class="productLocation"><span>From: </span> Cananda</p>
 								</div>
-								<div class="flexRow text-start p-2">
+								<div class="flexRow productDetailsBottom">
 									<div class="col-6"> <p><a href="#"><i class="fa fa-plus-square-o icon" aria-hidden="true"></i>
 									</a></p> </div>
 									<div class="col-6 productPrice text-end">$100</div>
 								</div>
 							</div>
 						</div>
-						<div class="column product p-2 text-center">
-							<div class="card w-100 p-2">
-								<div class="imgContainer mt-2">
+						<div class="column product">
+							<div class="card">
+								<div class="imgContainer">
 									<img src="https://www.dhresource.com/260x260/f2/albu/g5/M01/3C/4F/rBVaJFlDj0uABKFGAACMbsnU3HI271.jpg" alt="img">
 								</div>
-								<div class="productDetailsContainer p-3">
+								<div class="productDetailsContainer">
 									<h4 class="productName">Pink Socks</h4>
 									<p class="productStatus">New</p>
 									<p class="productLocation"><span>From: </span> Paris</p>
 								</div>
-								<div class="flexRow text-start p-2">
+								<div class="flexRow productDetailsBottom">
 									<div class="col-6"> <p><a href="#"><i class="fa fa-plus-square-o icon" aria-hidden="true"></i>
 									</a></p> </div>
 									<div class="col-6 productPrice text-end">$100</div>
 								</div>
 							</div>
 						</div>
-						<div class="column product p-2 text-center">
-							<div class="card w-100 p-2">
-								<div class="imgContainer mt-2">
+						<div class="column product">
+							<div class="card">
+								<div class="imgContainer">
 									<img src="https://www.dhresource.com/fc/s019/LP/key/dcp/grey-athletics-shoes-5-11-with-box.jpg" alt="img">
 								</div>
-								<div class="productDetailsContainer p-3">
+								<div class="productDetailsContainer">
 									<h4 class="productName">West Boot</h4>
 									<p class="productStatus">New</p>
 									<p class="productLocation"><span>From: </span> USA</p>
 								</div>
-								<div class="flexRow text-start p-2">
+								<div class="flexRow productDetailsBottom">
 									<div class="col-6"> <p><a href="#"><i class="fa fa-plus-square-o icon" aria-hidden="true"></i>
 									</a></p> </div>
 									<div class="col-6 productPrice text-end">$100</div>
 								</div>
 							</div>
 						</div>
-						<div class="column product p-2 text-center">
-							<div class="card w-100 p-2">
-								<div class="imgContainer mt-2">
+						<div class="column product">
+							<div class="card">
+								<div class="imgContainer">
 									<img src="https://www.dhresource.com/200x200/f2/albu/g2/M01/A7/E3/rBVaG1n21FSAPWi6AAWB2YvGGDM074.jpg" alt="img">
 								</div>
-								<div class="productDetailsContainer p-3">
+								<div class="productDetailsContainer">
 									<h4 class="productName">Lex Bag</h4>
 									<p class="productStatus">New</p>
 									<p class="productLocation"><span>From: </span> Sweden</p>
 								</div>
-								<div class="flexRow text-start p-2">
+								<div class="flexRow productDetailsBottom">
 									<div class="col-6"> <p><a href="#"><i class="fa fa-plus-square-o icon" aria-hidden="true"></i>
 									</a></p> </div>
 									<div class="col-6 productPrice text-end">$100</div>
@@ -1067,68 +1059,68 @@
 				  </div>
 				  <div class="carousel-item">
 					<div class="flexRow flex-nowrap">
-						<div class="column product p-2 text-center">
-							<div class="card w-100 p-2">
-								<div class="imgContainer mt-2">
+						<div class="column product">
+							<div class="card">
+								<div class="imgContainer">
 									<img src="https://via.placeholder.com/150" alt="img">
 								</div>
-								<div class="productDetailsContainer p-3">
+								<div class="productDetailsContainer">
 									<h4 class="productName">Product Name</h4>
 									<p class="productStatus">Status</p>
 									<p class="productLocation"><span>From: </span> Product Details</p>
 								</div>
-								<div class="flexRow text-start p-2">
+								<div class="flexRow productDetailsBottom">
 									<div class="col-6"> <p><a href="#"><i class="fa fa-plus-square-o icon" aria-hidden="true"></i>
 									</a></p> </div>
 									<div class="col-6 productPrice text-end">$100</div>
 								</div>
 							</div>
 						</div>
-						<div class="column product p-2 text-center">
-							<div class="card w-100 p-2">
-								<div class="imgContainer mt-2">
+						<div class="column product">
+							<div class="card">
+								<div class="imgContainer">
 									<img src="https://via.placeholder.com/150" alt="img">
 								</div>
-								<div class="productDetailsContainer p-3">
+								<div class="productDetailsContainer">
 									<h4 class="productName">Product Name</h4>
 									<p class="productStatus">Status</p>
 									<p class="productLocation"><span>From: </span> Product Details</p>
 								</div>
-								<div class="flexRow text-start p-2">
+								<div class="flexRow productDetailsBottom">
 									<div class="col-6"> <p><a href="#"><i class="fa fa-plus-square-o icon" aria-hidden="true"></i>
 									</a></p> </div>
 									<div class="col-6 productPrice text-end">$100</div>
 								</div>
 							</div>
 						</div>
-						<div class="column product p-2 text-center">
-							<div class="card w-100 p-2">
-								<div class="imgContainer mt-2">
+						<div class="column product">
+							<div class="card">
+								<div class="imgContainer">
 									<img src="https://via.placeholder.com/150" alt="img">
 								</div>
-								<div class="productDetailsContainer p-3">
+								<div class="productDetailsContainer">
 									<h4 class="productName">Product Name</h4>
 									<p class="productStatus">Status</p>
 									<p class="productLocation"><span>From: </span> Product Details</p>
 								</div>
-								<div class="flexRow text-start p-2">
+								<div class="flexRow productDetailsBottom">
 									<div class="col-6"> <p><a href="#"><i class="fa fa-plus-square-o icon" aria-hidden="true"></i>
 									</a></p> </div>
 									<div class="col-6 productPrice text-end">$100</div>
 								</div>
 							</div>
 						</div>
-						<div class="column product p-2 text-center">
-							<div class="card w-100 p-2">
-								<div class="imgContainer mt-2">
+						<div class="column product">
+							<div class="card">
+								<div class="imgContainer">
 									<img src="https://via.placeholder.com/150" alt="img">
 								</div>
-								<div class="productDetailsContainer p-3">
+								<div class="productDetailsContainer">
 									<h4 class="productName">Product Name</h4>
 									<p class="productStatus">Status</p>
 									<p class="productLocation"><span>From: </span> Product Details</p>
 								</div>
-								<div class="flexRow text-start p-2">
+								<div class="flexRow productDetailsBottom">
 									<div class="col-6"> <p><a href="#"><i class="fa fa-plus-square-o icon" aria-hidden="true"></i>
 									</a></p> </div>
 									<div class="col-6 productPrice text-end">$100</div>
@@ -1139,68 +1131,68 @@
 				  </div>
 				  <div class="carousel-item">
 					<div class="flexRow flex-nowrap">
-						<div class="column product p-2 text-center">
-							<div class="card w-100 p-2">
-								<div class="imgContainer mt-2">
+						<div class="column product">
+							<div class="card">
+								<div class="imgContainer">
 									<img src="https://via.placeholder.com/150" alt="img">
 								</div>
-								<div class="productDetailsContainer p-3">
+								<div class="productDetailsContainer">
 									<h4 class="productName">Product Name</h4>
 									<p class="productStatus">Status</p>
 									<p class="productLocation"><span>From: </span> Product Details</p>
 								</div>
-								<div class="flexRow text-start p-2">
+								<div class="flexRow productDetailsBottom">
 									<div class="col-6"> <p><a href="#"><i class="fa fa-plus-square-o icon" aria-hidden="true"></i>
 									</a></p> </div>
 									<div class="col-6 productPrice text-end">$100</div>
 								</div>
 							</div>
 						</div>
-						<div class="column product p-2 text-center">
-							<div class="card w-100 p-2">
-								<div class="imgContainer mt-2">
+						<div class="column product">
+							<div class="card">
+								<div class="imgContainer">
 									<img src="https://via.placeholder.com/150" alt="img">
 								</div>
-								<div class="productDetailsContainer p-3">
+								<div class="productDetailsContainer">
 									<h4 class="productName">Product Name</h4>
 									<p class="productStatus">Status</p>
 									<p class="productLocation"><span>From: </span> Product Details</p>
 								</div>
-								<div class="flexRow text-start p-2">
+								<div class="flexRow productDetailsBottom">
 									<div class="col-6"> <p><a href="#"><i class="fa fa-plus-square-o icon" aria-hidden="true"></i>
 									</a></p> </div>
 									<div class="col-6 productPrice text-end">$100</div>
 								</div>
 							</div>
 						</div>
-						<div class="column product p-2 text-center">
-							<div class="card w-100 p-2">
-								<div class="imgContainer mt-2">
+						<div class="column product">
+							<div class="card">
+								<div class="imgContainer">
 									<img src="https://via.placeholder.com/150" alt="img">
 								</div>
-								<div class="productDetailsContainer p-3">
+								<div class="productDetailsContainer">
 									<h4 class="productName">Product Name</h4>
 									<p class="productStatus">Status</p>
 									<p class="productLocation"><span>From: </span> Product Details</p>
 								</div>
-								<div class="flexRow text-start p-2">
+								<div class="flexRow productDetailsBottom">
 									<div class="col-6"> <p><a href="#"><i class="fa fa-plus-square-o icon" aria-hidden="true"></i>
 									</a></p> </div>
 									<div class="col-6 productPrice text-end">$100</div>
 								</div>
 							</div>
 						</div>
-						<div class="column product p-2 text-center">
-							<div class="card w-100 p-2">
-								<div class="imgContainer mt-2">
+						<div class="column product">
+							<div class="card">
+								<div class="imgContainer">
 									<img src="https://via.placeholder.com/150" alt="img">
 								</div>
-								<div class="productDetailsContainer p-3">
+								<div class="productDetailsContainer">
 									<h4 class="productName">Product Name</h4>
 									<p class="productStatus">Status</p>
 									<p class="productLocation"><span>From: </span> Product Details</p>
 								</div>
-								<div class="flexRow text-start p-2">
+								<div class="flexRow productDetailsBottom">
 									<div class="col-6"> <p><a href="#"><i class="fa fa-plus-square-o icon" aria-hidden="true"></i>
 									</a></p> </div>
 									<div class="col-6 productPrice text-end">$100</div>
@@ -1227,9 +1219,9 @@
 		
 	</main>
 
-	<footer class="mt-4 pr-2 pl-2">
-	   <div class="card pt-3 pb-3">
-			<div class="mx-auto container flexRow">
+	<footer>
+	   <div class="card">
+			<div class="container flexRow">
 				<div class="col-12 col-lg-3 text-center">
 					<p><i class="fa fa-tachometer footerLogo" aria-hidden="true"></i><span class="footerLogoName"> zattiz</span></p>
 					<p class="text-start">
@@ -1282,26 +1274,26 @@
 					</ul>
 				</div>
 
-				<div class="col-12 col-lg-3">
+				<div class="col-12 col-lg-3 footerWidget">
 					<div class="d-flex mt-5">
 						 <div class="flex-grow-1">&nbsp;&nbsp;&nbsp;COUNTRY</div>
-						<div class="card ml-2 flex-grow-1 text-center redtext w-100">GHANA</div>
+						<div class="card redtext">GHANA</div>
 					</div>
 
 					<div class="d-flex mt-2">
 						<div class="flex-grow-1">LANGUAGE</div>
-					   <div class="card ml-2 flex-grow-1 text-center redtext w-100">ENGLISH</div>
+					   <div class="card redtext ">ENGLISH</div>
 				   </div>
 
 				   <div class="d-flex mt-2">
 					<div class="flex-grow-1">CURRENCY</div>
-				   <div class="card ml-2 flex-grow-1 text-center redtext w-100">USD</div>
+				   <div class="card redtext">USD</div>
 			   </div>
 				</div>
 			</div>
 	   </div>
 
-	   <div class="container p-3 text-center">
+	   <div class="container copyright">
 		COPYRIGHT © 2020 · ThankGod Richard · Microverse
 	   </div>
 	</footer>

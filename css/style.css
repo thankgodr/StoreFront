@@ -2,15 +2,26 @@
   font-family: GotHamBold;
   src: url("../font/Gotham Bold.otf") format("opentype");
 }
-
 @font-face {
   font-family: GotHamRoundedLight;
   src: url("../font/Gotham Rounded Light.otf") format("opentype");
+}
+body {
+  overflow-x: hidden;
 }
 
 p {
   font-family: "GotHamRoundedLight", sans-serif;
   margin-bottom: 0;
+}
+
+main {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("../images/leftArrow.svg");
 }
 
 a {
@@ -29,6 +40,9 @@ ul {
 
 footer {
   font-family: "GotHamRoundedLight", sans-serif;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  margin-top: 1.5rem;
 }
 
 footer ul {
@@ -40,11 +54,30 @@ footer ul {
   margin-right: -15px;
   margin-left: -15px;
   flex-wrap: wrap;
+  align-items: stretch;
 }
 
 footer .redtext {
   color: #d35266;
   font-family: "Montserrat", sans-serif;
+}
+
+footer .card {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+footer .card:hover {
+  transition: none;
+  transform: none;
+}
+
+footer > .card > .container {
+  justify-content: center;
+  margin-right: 0;
+  margin-left: 0;
+  width: 100%;
+  max-width: 100%;
 }
 
 h1,
@@ -85,6 +118,10 @@ footer h5 {
   object-fit: cover;
 }
 
+.addvertSline {
+  margin-top: 1.5rem;
+}
+
 .addvertSline div {
   max-height: 450px;
 }
@@ -103,6 +140,22 @@ footer h5 {
   transition: all 0.2s ease-in-out;
 }
 
+.card .imgContainer {
+  margin-top: 0.5rem;
+}
+
+.copyright {
+  padding: 1rem;
+  text-align: center;
+}
+
+.footerWidget .card {
+  margin-left: 0.5rem;
+  flex-grow: 1;
+  width: 100%;
+  text-align: center;
+}
+
 .card:hover {
   transform: scale(1.1);
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
@@ -110,6 +163,8 @@ footer h5 {
 
 .product .card {
   height: 100%;
+  width: 100%;
+  padding: 0.5rem;
 }
 
 .serachFilters {
@@ -126,6 +181,14 @@ footer h5 {
 
 .form-check-label {
   font-family: "Montserrat", sans-serif;
+}
+
+.featuredProducts {
+  margin-top: 1rem;
+}
+
+.category {
+  margin-top: 1.5rem;
 }
 
 .category .row {
@@ -179,6 +242,13 @@ footer h5 {
 .redHeader {
   background-color: #d35266;
   margin-top: 20px;
+  padding: 3rem;
+  text-align: center;
+}
+
+.redHeaderWrapper {
+  flex: 0 0 100%;
+  max-width: 100%;
 }
 
 .redHeader .btn {
@@ -213,11 +283,21 @@ footer h5 {
 
 .logoNameBigSubscribe {
   font-family: "GotHamRoundedLight", sans-serif;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 3rem;
 }
 
 .topMenuRow {
   background-color: #383838;
   color: #888;
+  padding: 0.5rem;
+  position: fixed;
+  top: 0;
+  z-index: 999999;
+  width: 100%;
+  margin: 0;
+  align-items: center;
 }
 
 .text-end {
@@ -228,6 +308,10 @@ footer h5 {
   display: flex;
   flex-grow: 1;
   white-space: nowrap;
+  margin-top: auto;
+  margin-bottom: auto;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 .menuList li {
@@ -263,6 +347,12 @@ footer h5 {
 
 .productDetailsContainer {
   text-align: start;
+  padding: 1rem;
+}
+
+.productDetailsBottom {
+  padding: 0.5rem;
+  text-align: start;
 }
 
 .productLocation {
@@ -275,6 +365,8 @@ footer h5 {
 
 .product {
   background-clip: padding-box;
+  text-align: center;
+  padding: 0.5rem;
 }
 
 .productStatus {
@@ -286,6 +378,33 @@ footer h5 {
   flex: 1;
 }
 
+.onlyLargeScreens {
+  display: none;
+}
+
+.onlyMidiumSreen {
+  display: none;
+}
+
+.noPadding {
+  padding: 0;
+}
+
+full .menuListWrapper {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+.menuListWrapper3 {
+  flex: 0 0 33.333333%;
+  max-width: 33.333333%;
+}
+
+.formDivision {
+  flex: 0 0 25%;
+  max-width: 25%;
+}
+
 @media (min-width: 576px) {
   footer ul > li {
     margin-right: 10px;
@@ -295,10 +414,13 @@ footer h5 {
     flex: 1 0 50%;
   }
 }
-
 @media (min-width: 768px) {
   .carousel-control-prev .icon {
     left: -58px;
+  }
+
+  .onlyMidiumSreen {
+    display: block;
   }
 
   .carousel-control-next .icon {
@@ -310,10 +432,13 @@ footer h5 {
     max-width: 33%;
   }
 }
-
 @media (min-width: 992px) {
   .carousel-control-prev .icon {
     left: -98px;
+  }
+
+  .onlyLargeScreens {
+    display: block;
   }
 
   .carousel-control-next .icon {
@@ -328,4 +453,11 @@ footer h5 {
     flex: 1 0 21%;
     margin: 5px;
   }
+
+  .menuListWrapper {
+    flex: 0 0 66.666666%;
+    max-width: 66.666666%;
+  }
 }
+
+/*# sourceMappingURL=style.css.map */
