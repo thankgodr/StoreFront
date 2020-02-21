@@ -2,10 +2,12 @@
   font-family: GotHamBold;
   src: url("../font/Gotham Bold.otf") format("opentype");
 }
+
 @font-face {
   font-family: GotHamRoundedLight;
   src: url("../font/Gotham Rounded Light.otf") format("opentype");
 }
+
 body {
   overflow-x: hidden;
 }
@@ -62,9 +64,33 @@ footer .redtext {
   font-family: "Montserrat", sans-serif;
 }
 
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  transition: all 0.2s ease-in-out;
+}
+
 footer .card {
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+.footerWidget .card {
+  margin-left: 0.5rem;
+  flex-grow: 1;
+  width: 100%;
+  text-align: center;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.product .card {
+  height: 100%;
+  width: 100%;
+  padding: 0.5rem;
 }
 
 footer .card:hover {
@@ -134,12 +160,6 @@ footer h5 {
   color: #d35266;
 }
 
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  transition: 0.3s;
-  transition: all 0.2s ease-in-out;
-}
-
 .card .imgContainer {
   margin-top: 0.5rem;
 }
@@ -147,24 +167,6 @@ footer h5 {
 .copyright {
   padding: 1rem;
   text-align: center;
-}
-
-.footerWidget .card {
-  margin-left: 0.5rem;
-  flex-grow: 1;
-  width: 100%;
-  text-align: center;
-}
-
-.card:hover {
-  transform: scale(1.1);
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-}
-
-.product .card {
-  height: 100%;
-  width: 100%;
-  padding: 0.5rem;
 }
 
 .serachFilters {
@@ -283,7 +285,7 @@ footer h5 {
 
 .logoNameBigSubscribe {
   font-family: "GotHamRoundedLight", sans-serif;
-  color: #ffffff;
+  color: #fff;
   text-transform: capitalize;
   margin-bottom: 3rem;
 }
@@ -390,7 +392,7 @@ footer h5 {
   padding: 0;
 }
 
-full .menuListWrapper {
+.menuListWrapper {
   flex: 0 0 100%;
   max-width: 100%;
 }
@@ -414,6 +416,7 @@ full .menuListWrapper {
     flex: 1 0 50%;
   }
 }
+
 @media (min-width: 768px) {
   .carousel-control-prev .icon {
     left: -58px;
@@ -432,6 +435,7 @@ full .menuListWrapper {
     max-width: 33%;
   }
 }
+
 @media (min-width: 992px) {
   .carousel-control-prev .icon {
     left: -98px;
@@ -459,5 +463,3 @@ full .menuListWrapper {
     max-width: 66.666666%;
   }
 }
-
-/*# sourceMappingURL=style.css.map */
