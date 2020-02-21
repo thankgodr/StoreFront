@@ -1,0 +1,465 @@
+@font-face {
+  font-family: GotHamBold;
+  src: url("../font/Gotham Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: GotHamRoundedLight;
+  src: url("../font/Gotham Rounded Light.otf") format("opentype");
+}
+
+body {
+  overflow-x: hidden;
+}
+
+p {
+  font-family: "GotHamRoundedLight", sans-serif;
+  margin-bottom: 0;
+}
+
+main {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("../images/leftArrow.svg");
+}
+
+a {
+  text-decoration: none;
+  color: #888;
+}
+
+a:hover {
+  color: #d35266;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+footer {
+  font-family: "GotHamRoundedLight", sans-serif;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  margin-top: 1.5rem;
+}
+
+footer ul {
+  padding: 0;
+}
+
+.flexRow {
+  display: flex;
+  margin-right: -15px;
+  margin-left: -15px;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+
+footer .redtext {
+  color: #d35266;
+  font-family: "Montserrat", sans-serif;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  transition: all 0.2s ease-in-out;
+}
+
+footer .card {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.footerWidget .card {
+  margin-left: 0.5rem;
+  flex-grow: 1;
+  width: 100%;
+  text-align: center;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.product .card {
+  height: 100%;
+  width: 100%;
+  padding: 0.5rem;
+}
+
+footer .card:hover {
+  transition: none;
+  transform: none;
+}
+
+footer > .card > .container {
+  justify-content: center;
+  margin-right: 0;
+  margin-left: 0;
+  width: 100%;
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "GotHamBold", sans-serif;
+}
+
+footer h5 {
+  color: #d35266;
+  border-bottom: 1px solid #d35266;
+}
+
+.icon {
+  font-size: 30px;
+}
+
+.carousel-control-prev .icon {
+  font-weight: 900;
+  color: #d35266;
+  position: relative;
+  left: -38px;
+}
+
+.carousel-control-next .icon {
+  font-weight: 900;
+  color: #d35266;
+  position: relative;
+  right: -38px;
+}
+
+.imgContainer img {
+  max-height: 200px;
+  max-width: 150px;
+  object-fit: cover;
+}
+
+.addvertSline {
+  margin-top: 1.5rem;
+}
+
+.addvertSline div {
+  max-height: 450px;
+}
+
+.text-end .btn {
+  white-space: nowrap;
+}
+
+.mainColorRed {
+  color: #d35266;
+}
+
+.card .imgContainer {
+  margin-top: 0.5rem;
+}
+
+.copyright {
+  padding: 1rem;
+  text-align: center;
+}
+
+.serachFilters {
+  background-color: rgba(0, 0, 0, 0.03);
+}
+
+.serachFilters .card-body {
+  background-color: rgba(0, 0, 0, 0.03);
+}
+
+.serachFilters .card-group-item {
+  padding-left: 10px;
+}
+
+.form-check-label {
+  font-family: "Montserrat", sans-serif;
+}
+
+.featuredProducts {
+  margin-top: 1rem;
+}
+
+.category {
+  margin-top: 1.5rem;
+}
+
+.category .row {
+  margin: 0;
+}
+
+.text-start {
+  text-align: start;
+}
+
+.logo {
+  color: #d35266;
+  font-size: 25px;
+}
+
+.footerLogoName {
+  color: #888;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 4px;
+}
+
+.footerLogo {
+  color: #888;
+  font-size: 50px;
+}
+
+.selected {
+  color: #d35266;
+}
+
+.logoName {
+  color: white;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 4px;
+}
+
+.profilePic {
+  width: 35px;
+  border-radius: 50%;
+}
+
+.form-control {
+  border-radius: 0;
+  height: calc(1.5em + 0.75rem + 22px);
+}
+
+.redHeader {
+  background-color: #d35266;
+  margin-top: 20px;
+  padding: 3rem;
+  text-align: center;
+}
+
+.redHeaderWrapper {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+.redHeader .btn {
+  line-height: 2.8;
+}
+
+.imgcontain {
+  object-fit: contain;
+}
+
+.commentCount {
+  position: relative;
+  left: 41px;
+  z-index: 22;
+  top: -15px;
+  color: white;
+  font-family: "GotHamBold", sans-serif;
+  font-weight: 700;
+}
+
+.comentIcon {
+  color: #d35266;
+}
+
+.logoNameBig {
+  color: white;
+  font-size: 45px;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  line-height: 0.9;
+}
+
+.logoNameBigSubscribe {
+  font-family: "GotHamRoundedLight", sans-serif;
+  color: #fff;
+  text-transform: capitalize;
+  margin-bottom: 3rem;
+}
+
+.topMenuRow {
+  background-color: #383838;
+  color: #888;
+  padding: 0.5rem;
+  position: fixed;
+  top: 0;
+  z-index: 999999;
+  width: 100%;
+  margin: 0;
+  align-items: center;
+}
+
+.text-end {
+  text-align: end;
+}
+
+.menuList {
+  display: flex;
+  flex-grow: 1;
+  white-space: nowrap;
+  margin-top: auto;
+  margin-bottom: auto;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.menuList li {
+  flex: 1;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+.sectionHeader {
+  color: #888;
+  font-size: 18px;
+}
+
+.headerContainer {
+  display: inline-flex;
+}
+
+.category .headerContainer {
+  margin-left: 10px;
+  border-bottom: 1px solid #888;
+}
+
+.productName {
+  font-family: "GotHamBold", sans-serif;
+  color: #383838;
+  margin-bottom: 0;
+}
+
+.productPrice {
+  color: #d35266;
+  font-family: "GotHamBold", sans-serif;
+}
+
+.productDetailsContainer {
+  text-align: start;
+  padding: 1rem;
+}
+
+.productDetailsBottom {
+  padding: 0.5rem;
+  text-align: start;
+}
+
+.productLocation {
+  color: #383838;
+}
+
+.productLocation > span {
+  color: #888;
+}
+
+.product {
+  background-clip: padding-box;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.productStatus {
+  color: #d35266;
+  font-family: "Montserrat", sans-serif;
+}
+
+.headerContainer .sectionHeader {
+  flex: 1;
+}
+
+.onlyLargeScreens {
+  display: none;
+}
+
+.onlyMidiumSreen {
+  display: none;
+}
+
+.noPadding {
+  padding: 0;
+}
+
+.menuListWrapper {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+.menuListWrapper3 {
+  flex: 0 0 33.333333%;
+  max-width: 33.333333%;
+}
+
+.formDivision {
+  flex: 0 0 25%;
+  max-width: 25%;
+}
+
+@media (min-width: 576px) {
+  footer ul > li {
+    margin-right: 10px;
+  }
+
+  .column {
+    flex: 1 0 50%;
+  }
+}
+
+@media (min-width: 768px) {
+  .carousel-control-prev .icon {
+    left: -58px;
+  }
+
+  .onlyMidiumSreen {
+    display: block;
+  }
+
+  .carousel-control-next .icon {
+    right: -58px;
+  }
+
+  .column {
+    flex: 1 0 33%;
+    max-width: 33%;
+  }
+}
+
+@media (min-width: 992px) {
+  .carousel-control-prev .icon {
+    left: -98px;
+  }
+
+  .onlyLargeScreens {
+    display: block;
+  }
+
+  .carousel-control-next .icon {
+    right: -98px;
+  }
+
+  footer ul > li {
+    margin-right: 0;
+  }
+
+  .column {
+    flex: 1 0 21%;
+    margin: 5px;
+  }
+
+  .menuListWrapper {
+    flex: 0 0 66.666666%;
+    max-width: 66.666666%;
+  }
+}

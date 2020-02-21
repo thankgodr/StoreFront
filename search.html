@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/style.css">
+	<title>Palace Store</title>
+</head>
+<body>
+	<header class="page-header">
+		 <div class="flexRow topMenuRow">
+			 <div class="menuListWrapper">
+				<ul class="menuList">
+					<li> 
+						<a href="#">
+						   <i class="fa fa-tachometer logo" aria-hidden="true"></i><span class="logoName"> zattiz</span>
+						</a> 
+					</li>
+					<li>
+						<a href="index.html" class="selected">
+							<i class="fa fa-home" aria-hidden="true"></i> Home
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<i class="fa fa-suitcase" aria-hidden="true"></i> COllection
+						</a>	
+					</li>
+					<li>
+						<a href="#">
+							 <i class="fa fa-shopping-cart" aria-hidden="true"></i> Purchase List
+						</a>
+					</li>
+
+					<li class="d-none d-md-block">
+						<button class="btn btn-danger">Post an Add</button>
+					</li>
+				</ul>
+			 </div>	
+			 <div class="onlyLargeScreens menuListWrapper3">
+				<ul class="menuList">
+					<li>
+						<p>
+							<span class="commentCount">98</span>
+							<i class="fa fa-shopping-cart icon comentIcon" aria-hidden="true"></i>
+						</p>
+					</li>
+					<li class="text-white">TG  Richie</li>
+					<li>
+						<div class="imgContainer">
+							<img class="profilePic" src="https://avatars3.githubusercontent.com/u/14159211?s=460&v=4" alt="profilePic">
+						</div>
+					</li>
+				</ul>
+			 </div>
+		 </div> 
+
+		 <div class="flexRow onlyMidiumSreen mt-5  text-center redHeader p-3">
+			<div class="col-12">
+				<p class="logoNameBig">zattiz</p>
+				<p class="text-white text-capitalize mb-2 logoNameBigSubscribe">Buting and Selling Couldn't be Simpler than this</p>
+				<div >
+					<form action="#" method="post" novalidate="novalidate">
+						<div class="flexRow m-0">
+							<div class="col-lg-12 ">
+								<div class="flexRow">
+									<div class="col-lg-3 col-md-3 col-sm-12 p-0 order-3">
+										<input type="text" class="form-control search-slt" placeholder="Enter Pickup City">
+									</div>
+									<div class="col-lg-3 col-md-3 col-sm-12 p-0 order-2">
+										<input type="text" class="form-control search-slt" placeholder="Enter Drop City">
+									</div>
+									<div class="col-lg-3 col-md-3 col-sm-12 p-0 order-1 offset-1">
+										<select class="form-control search-slt">
+											<option>All Department</option>
+											<option>Electronic</option>
+											<option>Fashion</option>
+											<option>Men</option>
+											<option>Women</option>
+											<option>Children</option>
+											<option>Boys</option>
+										</select>
+									</div>
+									<div class="col-lg-2 col-md-2 col-sm-12 p-0 order-4 text-start">
+										<button type="button" class="btn btn-danger wrn-btn">Search</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		 </div>
+		 
+	</header>
+
+	<main>
+
+      <div class="flexRow p-1">
+          <div class="onlyMidiumSreen col-4 p-0 pl-2 serachFilters">
+            <div class="card sticky-top">
+                <div class="card-group-item">
+                    <header class="card-header">
+                        <h6 class="title">Filters </h6>
+                    </header>
+                    <div class="filter-content">
+                        <div class="card-body">
+                        <form>
+                            <div class="d-flex">
+                                <label class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="">
+                                    <span class="form-check-label">
+                                      New
+                                    </span>
+                                  </label> 
+                                  <label class=" ml-2 form-check">
+                                    <input class="form-check-input" type="checkbox" value="">
+                                    <span class="form-check-label">
+                                      Used
+                                    </span>
+                                  </label> 
+                            </div>
+                        </form>
+            
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card-group-item">
+                    <header class="card-header">
+                        <h6 class="title">Type </h6>
+                    </header>
+                    <div class="filter-content">
+                        <div class="card-body">
+                        <label class="form-check">
+                          <input class="form-check-input" type="checkbox"  value="">
+                          <span class="form-check-label">
+                            Test Item
+                          </span>
+                        </label>
+                        <label class="form-check">
+                          <input class="form-check-input" type="checkbox"  value="">
+                          <span class="form-check-label">
+                            Test Item
+                          </span>
+                        </label>
+                        <label class="form-check">
+                          <input class="form-check-input" type="checkbox"  value="">
+                          <span class="form-check-label">
+                            Test Item
+                          </span>
+                        </label>
+                        </div> 
+                    </div>
+                </div> 
+
+                <div class="card-group-item">
+                    <header class="card-header">
+                        <h6 class="title">Size </h6>
+                    </header>
+                    <div class="filter-content">
+                        <div class="card-body">
+                        <label class="form-check">
+                          <input class="form-check-input" type="checkbox"  value="">
+                          <span class="form-check-label">
+                            Test Item
+                          </span>
+                        </label>
+                        <label class="form-check">
+                          <input class="form-check-input" type="checkbox"  value="">
+                          <span class="form-check-label">
+                            Test Item
+                          </span>
+                        </label>
+                        <label class="form-check">
+                          <input class="form-check-input" type="checkbox"  value="">
+                          <span class="form-check-label">
+                            Test Item
+                          </span>
+                        </label>
+                        </div> 
+                    </div>
+                </div> 
+
+                <div class="card-group-item">
+                    <header class="card-header">
+                        <h6 class="title">Price Range </h6>
+                    </header>
+                    <div class="filter-content">
+                        <div class="card-body">
+                        <label class="form-check">
+                          <input class="form-check-input" type="checkbox"  value="">
+                          <span class="form-check-label">
+                            Test Item
+                          </span>
+                        </label>
+                        <label class="form-check">
+                          <input class="form-check-input" type="checkbox"  value="">
+                          <span class="form-check-label">
+                            Test Item
+                          </span>
+                        </label>
+                        <label class="form-check">
+                          <input class="form-check-input" type="checkbox" value="">
+                          <span class="form-check-label">
+                            Test Item
+                          </span>
+                        </label>
+                        <label class="form-check">
+                            <input class="form-check-input" type="checkbox" value="">
+                            <span class="form-check-label">
+                              Test Item
+                            </span>
+                          </label>
+                        </div> 
+                    </div>
+                </div> 
+
+                <div class="card-group-item">
+                    <header class="card-header">
+                        <h6 class="title">Color </h6>
+                    </header>
+                    <div class="filter-content">
+                        <div class="card-body">
+                            <label class="form-check">
+                            <input class="form-check-input" type="checkbox"  value="">
+                            <span class="form-check-label">
+                                Test Item
+                            </span>
+                            </label>
+                        </div> 
+                    </div>
+                </div> 
+            </div>
+          </div>
+          <div class="col-12 col-md-8">
+            <div class="flexRow featuredProducts  mt-5 mt-md-3">
+                <div class="col-12">
+                   <div class="flexRow">
+                       <div class="col-6">
+                            <h6 class="sectionHeader">Search Result</h6>
+                       </div>
+                       <div class="onlyMidiumSreen col-6 text-end">
+                        <i class="fa fa-bars icon" aria-hidden="true"></i>
+                       </div>
+                   </div>
+                </div>
+                <div class="col-12 product p-2 text-center">
+                    <div class="card w-100 p-2">
+                        <div class="flexRow">
+                            <div class="col-4 imgContainer">
+                                <img src="https://www.dhresource.com/fc/s019/LP//key/dcp/middle1.jpg" alt="img">
+                            </div>
+                            <div class="col-8">
+                                <div class="productDetailsContainer p-3">
+                                    <h4 class="productName">Silver Watch</h4>
+                                    <p class="productStatus">New</p>
+                                    <p class="productLocation"><span>From: </span> China</p>
+
+                                    <p>This shoe is clasified shoe from the amazons of forest</p>
+                                </div>
+                                <div class="flexRow text-start p-2">
+                                    <div class="col-4"> <p><a href="#"><i class="fa fa-plus-square-o icon" aria-hidden="true"></i>
+                                    </a></p> </div>
+                                    <div class="col-8">
+                                        <div class="flexRow">
+                                            <div class="col-12 col-lg-6 text-end">
+                                                <button class="btn btn-danger"><i class="fa fa-cart-plus" aria-hidden="true"></i>&nbsp;Add to Cart</button>
+                                            </div>
+                                            <div class="col-12 text-end col-lg-6 productPrice my-auto">$100</div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-12 product p-2 text-center">
+                    <div class="card w-100 p-2">
+                        <div class="flexRow">
+                            <div class="col-4 imgContainer">
+                                <img src="https://www.dhresource.com/fc/s019/LP//key/dcp/middle1.jpg" alt="img">
+                            </div>
+                            <div class="col-8">
+                                <div class="productDetailsContainer p-3">
+                                    <h4 class="productName">Silver Watch</h4>
+                                    <p class="productStatus">New</p>
+                                    <p class="productLocation"><span>From: </span> China</p>
+
+                                    <p>This shoe is clasified shoe from the amazons of forest</p>
+                                </div>
+                                <div class="flexRow text-start p-2">
+                                    <div class="col-4"> <p><a href="#"><i class="fa fa-plus-square-o icon" aria-hidden="true"></i>
+                                    </a></p> </div>
+                                    <div class="col-8">
+                                        <div class="flexRow">
+                                            <div class="col-12 col-lg-6 text-end">
+                                                <button class="btn btn-danger"><i class="fa fa-cart-plus" aria-hidden="true"></i>&nbsp;Add to Cart</button>
+                                            </div>
+                                            <div class="col-12 text-end col-lg-6 productPrice my-auto">$100</div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-12 product p-2 text-center">
+                    <div class="card w-100 p-2">
+                        <div class="flexRow">
+                            <div class="col-4 imgContainer">
+                                <img src="https://www.dhresource.com/fc/s019/LP//key/dcp/middle1.jpg" alt="img">
+                            </div>
+                            <div class="col-8">
+                                <div class="productDetailsContainer p-3">
+                                    <h4 class="productName">Silver Watch</h4>
+                                    <p class="productStatus">New</p>
+                                    <p class="productLocation"><span>From: </span> China</p>
+
+                                    <p>This shoe is clasified shoe from the amazons of forest</p>
+                                </div>
+                                <div class="flexRow text-start p-2">
+                                    <div class="col-4"> <p><a href="#"><i class="fa fa-plus-square-o icon" aria-hidden="true"></i>
+                                    </a></p> </div>
+                                    <div class="col-8">
+                                        <div class="flexRow">
+                                            <div class="col-12 col-lg-6 text-end">
+                                                <button class="btn btn-danger"><i class="fa fa-cart-plus" aria-hidden="true"></i>&nbsp;Add to Cart</button>
+                                            </div>
+                                            <div class="col-12 text-end col-lg-6 productPrice my-auto">$100</div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-12 product p-2 text-center">
+                    <div class="card w-100 p-2">
+                        <div class="flexRow">
+                            <div class="col-4 imgContainer">
+                                <img src="https://www.dhresource.com/fc/s019/LP//key/dcp/middle1.jpg" alt="img">
+                            </div>
+                            <div class="col-8">
+                                <div class="productDetailsContainer p-3">
+                                    <h4 class="productName">Silver Watch</h4>
+                                    <p class="productStatus">New</p>
+                                    <p class="productLocation"><span>From: </span> China</p>
+
+                                    <p>This shoe is clasified shoe from the amazons of forest</p>
+                                </div>
+                                <div class="flexRow text-start p-2">
+                                    <div class="col-4"> <p><a href="#"><i class="fa fa-plus-square-o icon" aria-hidden="true"></i>
+                                    </a></p> </div>
+                                    <div class="col-8">
+                                        <div class="flexRow">
+                                            <div class="col-12 col-lg-6 text-end">
+                                                <button class="btn btn-danger"><i class="fa fa-cart-plus" aria-hidden="true"></i>&nbsp;Add to Cart</button>
+                                            </div>
+                                            <div class="col-12 text-end col-lg-6 productPrice my-auto">$100</div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-12 product p-2 text-center">
+                    <div class="card w-100 p-2">
+                        <div class="flexRow">
+                            <div class="col-4 imgContainer">
+                                <img src="https://www.dhresource.com/fc/s019/LP//key/dcp/middle1.jpg" alt="img">
+                            </div>
+                            <div class="col-8">
+                                <div class="productDetailsContainer p-3">
+                                    <h4 class="productName">Silver Watch</h4>
+                                    <p class="productStatus">New</p>
+                                    <p class="productLocation"><span>From: </span> China</p>
+
+                                    <p>This shoe is clasified shoe from the amazons of forest</p>
+                                </div>
+                                <div class="flexRow text-start p-2">
+                                    <div class="col-4"> <p><a href="#"><i class="fa fa-plus-square-o icon" aria-hidden="true"></i>
+                                    </a></p> </div>
+                                    <div class="col-8">
+                                        <div class="flexRow">
+                                            <div class="col-12 col-lg-6 text-end">
+                                                <button class="btn btn-danger"><i class="fa fa-cart-plus" aria-hidden="true"></i>&nbsp;Add to Cart</button>
+                                            </div>
+                                            <div class="col-12 text-end col-lg-6 productPrice my-auto">$100</div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-12 product p-2 text-center">
+                    <div class="card w-100 p-2">
+                        <div class="flexRow">
+                            <div class="col-4 imgContainer">
+                                <img src="https://www.dhresource.com/fc/s019/LP//key/dcp/middle1.jpg" alt="img">
+                            </div>
+                            <div class="col-8">
+                                <div class="productDetailsContainer p-3">
+                                    <h4 class="productName">Silver Watch</h4>
+                                    <p class="productStatus">New</p>
+                                    <p class="productLocation"><span>From: </span> China</p>
+
+                                    <p>This shoe is clasified shoe from the amazons of forest</p>
+                                </div>
+                                <div class="flexRow text-start p-2">
+                                    <div class="col-4"> <p><a href="#"><i class="fa fa-plus-square-o icon" aria-hidden="true"></i>
+                                    </a></p> </div>
+                                    <div class="col-8">
+                                        <div class="flexRow">
+                                            <div class="col-12 col-lg-6 text-end">
+                                                <button class="btn btn-danger"><i class="fa fa-cart-plus" aria-hidden="true"></i>&nbsp;Add to Cart</button>
+                                            </div>
+                                            <div class="col-12 text-end col-lg-6 productPrice my-auto">$100</div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-12 product p-2 text-center">
+                    <div class="card w-100 p-2">
+                        <div class="flexRow">
+                            <div class="col-4 imgContainer">
+                                <img src="https://www.dhresource.com/fc/s019/LP//key/dcp/middle1.jpg" alt="img">
+                            </div>
+                            <div class="col-8">
+                                <div class="productDetailsContainer p-3">
+                                    <h4 class="productName">Silver Watch</h4>
+                                    <p class="productStatus">New</p>
+                                    <p class="productLocation"><span>From: </span> China</p>
+
+                                    <p>This shoe is clasified shoe from the amazons of forest</p>
+                                </div>
+                                <div class="flexRow text-start p-2">
+                                    <div class="col-4"> <p><a href="#"><i class="fa fa-plus-square-o icon" aria-hidden="true"></i>
+                                    </a></p> </div>
+                                    <div class="col-8">
+                                        <div class="flexRow">
+                                            <div class="col-12 col-lg-6 text-end">
+                                                <button class="btn btn-danger"><i class="fa fa-cart-plus" aria-hidden="true"></i>&nbsp;Add to Cart</button>
+                                            </div>
+                                            <div class="col-12 text-end col-lg-6 productPrice my-auto">$100</div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-12 product p-2 text-center">
+                    <div class="card w-100 p-2">
+                        <div class="flexRow">
+                            <div class="col-4 imgContainer">
+                                <img src="https://www.dhresource.com/fc/s019/LP//key/dcp/middle1.jpg" alt="img">
+                            </div>
+                            <div class="col-8">
+                                <div class="productDetailsContainer p-3">
+                                    <h4 class="productName">Silver Watch</h4>
+                                    <p class="productStatus">New</p>
+                                    <p class="productLocation"><span>From: </span> China</p>
+
+                                    <p>This shoe is clasified shoe from the amazons of forest</p>
+                                </div>
+                                <div class="flexRow text-start p-2">
+                                    <div class="col-4"> <p><a href="#"><i class="fa fa-plus-square-o icon" aria-hidden="true"></i>
+                                    </a></p> </div>
+                                    <div class="col-8">
+                                        <div class="flexRow">
+                                            <div class="col-12 col-lg-6 text-end">
+                                                <button class="btn btn-danger"><i class="fa fa-cart-plus" aria-hidden="true"></i>&nbsp;Add to Cart</button>
+                                            </div>
+                                            <div class="col-12 text-end col-lg-6 productPrice my-auto">$100</div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-12 product p-2 text-center">
+                    <div class="card w-100 p-2">
+                        <div class="flexRow">
+                            <div class="col-4 imgContainer">
+                                <img src="https://www.dhresource.com/fc/s019/LP//key/dcp/middle1.jpg" alt="img">
+                            </div>
+                            <div class="col-8">
+                                <div class="productDetailsContainer p-3">
+                                    <h4 class="productName">Silver Watch</h4>
+                                    <p class="productStatus">New</p>
+                                    <p class="productLocation"><span>From: </span> China</p>
+
+                                    <p>This shoe is clasified shoe from the amazons of forest</p>
+                                </div>
+                                <div class="flexRow text-start p-2">
+                                    <div class="col-4"> <p><a href="#"><i class="fa fa-plus-square-o icon" aria-hidden="true"></i>
+                                    </a></p> </div>
+                                    <div class="col-8">
+                                        <div class="flexRow">
+                                            <div class="col-12 col-lg-6 text-end">
+                                                <button class="btn btn-danger"><i class="fa fa-cart-plus" aria-hidden="true"></i>&nbsp;Add to Cart</button>
+                                            </div>
+                                            <div class="col-12 text-end col-lg-6 productPrice my-auto">$100</div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-12 product p-2 text-center">
+                    <div class="card w-100 p-2">
+                        <div class="flexRow">
+                            <div class="col-4 imgContainer">
+                                <img src="https://www.dhresource.com/fc/s019/LP//key/dcp/middle1.jpg" alt="img">
+                            </div>
+                            <div class="col-8">
+                                <div class="productDetailsContainer p-3">
+                                    <h4 class="productName">Silver Watch</h4>
+                                    <p class="productStatus">New</p>
+                                    <p class="productLocation"><span>From: </span> China</p>
+
+                                    <p>This shoe is clasified shoe from the amazons of forest</p>
+                                </div>
+                                <div class="flexRow text-start p-2">
+                                    <div class="col-4"> <p><a href="#"><i class="fa fa-plus-square-o icon" aria-hidden="true"></i>
+                                    </a></p> </div>
+                                    <div class="col-8">
+                                        <div class="flexRow">
+                                            <div class="col-12 col-lg-6 text-end">
+                                                <button class="btn btn-danger"><i class="fa fa-cart-plus" aria-hidden="true"></i>&nbsp;Add to Cart</button>
+                                            </div>
+                                            <div class="col-12 text-end col-lg-6 productPrice my-auto">$100</div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-12 product p-2 text-center">
+                    <div class="card w-100 p-2">
+                        <div class="flexRow">
+                            <div class="col-4 imgContainer">
+                                <img src="https://www.dhresource.com/fc/s019/LP//key/dcp/middle1.jpg" alt="img">
+                            </div>
+                            <div class="col-8">
+                                <div class="productDetailsContainer p-3">
+                                    <h4 class="productName">Silver Watch</h4>
+                                    <p class="productStatus">New</p>
+                                    <p class="productLocation"><span>From: </span> China</p>
+
+                                    <p>This shoe is clasified shoe from the amazons of forest</p>
+                                </div>
+                                <div class="flexRow text-start p-2">
+                                    <div class="col-4"> <p><a href="#"><i class="fa fa-plus-square-o icon" aria-hidden="true"></i>
+                                    </a></p> </div>
+                                    <div class="col-8">
+                                        <div class="flexRow">
+                                            <div class="col-12 col-lg-6 text-end">
+                                                <button class="btn btn-danger"><i class="fa fa-cart-plus" aria-hidden="true"></i>&nbsp;Add to Cart</button>
+                                            </div>
+                                            <div class="col-12 text-end col-lg-6 productPrice my-auto">$100</div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-12 product p-2 text-center">
+                    <div class="card w-100 p-2">
+                        <div class="flexRow">
+                            <div class="col-4 imgContainer">
+                                <img src="https://www.dhresource.com/fc/s019/LP//key/dcp/middle1.jpg" alt="img">
+                            </div>
+                            <div class="col-8">
+                                <div class="productDetailsContainer p-3">
+                                    <h4 class="productName">Silver Watch</h4>
+                                    <p class="productStatus">New</p>
+                                    <p class="productLocation"><span>From: </span> China</p>
+
+                                    <p>This shoe is clasified shoe from the amazons of forest</p>
+                                </div>
+                                <div class="flexRow text-start p-2">
+                                    <div class="col-4"> <p><a href="#"><i class="fa fa-plus-square-o icon" aria-hidden="true"></i>
+                                    </a></p> </div>
+                                    <div class="col-8">
+                                        <div class="flexRow">
+                                            <div class="col-12 col-lg-6 text-end">
+                                                <button class="btn btn-danger"><i class="fa fa-cart-plus" aria-hidden="true"></i>&nbsp;Add to Cart</button>
+                                            </div>
+                                            <div class="col-12 text-end col-lg-6 productPrice my-auto">$100</div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-12 product p-2 text-center">
+                    <div class="card w-100 p-2">
+                        <div class="flexRow">
+                            <div class="col-4 imgContainer">
+                                <img src="https://www.dhresource.com/fc/s019/LP//key/dcp/middle1.jpg" alt="img">
+                            </div>
+                            <div class="col-8">
+                                <div class="productDetailsContainer p-3">
+                                    <h4 class="productName">Silver Watch</h4>
+                                    <p class="productStatus">New</p>
+                                    <p class="productLocation"><span>From: </span> China</p>
+
+                                    <p>This shoe is clasified shoe from the amazons of forest</p>
+                                </div>
+                                <div class="flexRow text-start p-2">
+                                    <div class="col-4"> <p><a href="#"><i class="fa fa-plus-square-o icon" aria-hidden="true"></i>
+                                    </a></p> </div>
+                                    <div class="col-8">
+                                        <div class="flexRow">
+                                            <div class="col-12 col-lg-6 text-end">
+                                                <button class="btn btn-danger"><i class="fa fa-cart-plus" aria-hidden="true"></i>&nbsp;Add to Cart</button>
+                                            </div>
+                                            <div class="col-12 text-end col-lg-6 productPrice my-auto">$100</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-12 product p-2 text-center">
+                    <div class="card w-100 p-2">
+                        <div class="flexRow">
+                            <div class="col-4 imgContainer">
+                                <img src="https://www.dhresource.com/fc/s019/LP//key/dcp/middle1.jpg" alt="img">
+                            </div>
+                            <div class="col-8">
+                                <div class="productDetailsContainer p-3">
+                                    <h4 class="productName">Silver Watch</h4>
+                                    <p class="productStatus">New</p>
+                                    <p class="productLocation"><span>From: </span> China</p>
+
+                                    <p>This shoe is clasified shoe from the amazons of forest</p>
+                                </div>
+                                <div class="flexRow text-start p-2">
+                                    <div class="col-4"> <p><a href="#"><i class="fa fa-plus-square-o icon" aria-hidden="true"></i>
+                                    </a></p> </div>
+                                    <div class="col-8">
+                                        <div class="flexRow">
+                                            <div class="col-12 col-lg-6 text-end">
+                                                <button class="btn btn-danger"><i class="fa fa-cart-plus" aria-hidden="true"></i>&nbsp;Add to Cart</button>
+                                            </div>
+                                            <div class="col-12 text-end col-lg-6 productPrice my-auto">$100</div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-12 product p-2 text-center">
+                    <div class="card w-100 p-2">
+                        <div class="flexRow">
+                            <div class="col-4 imgContainer">
+                                <img src="https://www.dhresource.com/fc/s019/LP//key/dcp/middle1.jpg" alt="img">
+                            </div>
+                            <div class="col-8">
+                                <div class="productDetailsContainer p-3">
+                                    <h4 class="productName">Silver Watch</h4>
+                                    <p class="productStatus">New</p>
+                                    <p class="productLocation"><span>From: </span> China</p>
+
+                                    <p>This shoe is clasified shoe from the amazons of forest</p>
+                                </div>
+                                <div class="flexRow text-start p-2">
+                                    <div class="col-4"> <p><a href="#"><i class="fa fa-plus-square-o icon" aria-hidden="true"></i>
+                                    </a></p> </div>
+                                    <div class="col-8">
+                                        <div class="flexRow">
+                                            <div class="col-12 col-lg-6 text-end">
+                                                <button class="btn btn-danger"><i class="fa fa-cart-plus" aria-hidden="true"></i>&nbsp;Add to Cart</button>
+                                            </div>
+                                            <div class="col-12 text-end col-lg-6 productPrice my-auto">$100</div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+            </div>
+          </div>
+      </div>
+
+		
+
+
+		
+	</main>
+
+	<footer>
+	   <div class="card pt-3 pb-3">
+			<div class="mx-auto container flexRow">
+				<div class="col-12 col-lg-3 text-center">
+					<p><i class="fa fa-tachometer footerLogo" aria-hidden="true"></i><span class="footerLogoName"> zattiz</span></p>
+					<p class="text-start">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua.
+					</p>
+				</div>
+				<div class="col-12 col-lg-3">
+					<div>
+						<h5>Categories</h5>
+					</div>
+					<div class="flexRow">
+						<div class="col-12 col-lg-6">
+							<ul class="d-flex d-lg-block">
+								<li><a href="#">Real Estate</a></li>
+								<li><a href="#">Automotive</a></li>
+								<li><a href="#">Electronic</a></li>
+								<li><a href="#">Fashion</a></li>
+								<li><a href="#">Kitchen</a></li>
+								<li><a href="#">Computers</a></li>
+								<li><a href="#">Furnitures</a></li>
+							</ul>
+						</div>
+						<div class="col-12 col-lg-6">
+							<ul class="d-flex d-lg-block">
+								<li><a href="#">Bed</a></li>
+								<li><a href="#">Toys</a></li>
+								<li><a href="#">Programing</a></li>
+								<li><a href="#">Microverse</a></li>
+								<li><a href="#">Carpets</a></li>
+								<li><a href="#">Speakers</a></li>
+								<li><a href="#">Gaming</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-12 col-lg-3">
+					<div>
+						<h5>Navigation</h5>
+					</div>
+					<ul class="d-flex d-lg-block">
+						<li><a href="#">Home</a></li>
+						<li><a href="#">About Us</a></li>
+						<li><a href="#">Contacts</a></li>
+						<li><a href="#">Services</a></li>
+						<li><a href="#">Help</a></li>
+						<li><a href="#">Privacy</a></li>
+						<li><a href="#">Terms & Conditions</a></li>
+					</ul>
+				</div>
+
+				<div class="col-12 col-lg-3">
+					<div class="d-flex mt-5">
+						 <div class="flex-grow-1">&nbsp;&nbsp;&nbsp;COUNTRY</div>
+						<div class="card ml-2 flex-grow-1 text-center redtext w-100">GHANA</div>
+					</div>
+
+					<div class="d-flex mt-2">
+						<div class="flex-grow-1">LANGUAGE</div>
+					   <div class="card ml-2 flex-grow-1 text-center redtext w-100">ENGLISH</div>
+				   </div>
+
+				   <div class="d-flex mt-2">
+					<div class="flex-grow-1">CURRENCY</div>
+				   <div class="card ml-2 flex-grow-1 text-center redtext w-100">USD</div>
+			   </div>
+				</div>
+			</div>
+	   </div>
+
+	   <div class="container p-3 text-center">
+		COPYRIGHT © 2020 · ThankGod Richard · Microverse
+	   </div>
+	</footer>
+
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
